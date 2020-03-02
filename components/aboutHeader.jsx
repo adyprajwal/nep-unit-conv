@@ -1,44 +1,38 @@
 import React from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
+import { globalStyles } from "../styles/globalStyles";
 
 export default function AboutHeader({ navigation, title }) {
 	const goToPreviousScreen = () => {
 		navigation.goBack();
 	};
 	return (
-		<View style={styles.header}>
+		<View style={globalStyles.header}>
 			<TouchableOpacity onPress={goToPreviousScreen}>
 				<MaterialIcons
 					name="arrow-back"
 					size={28}
-					style={styles.icon}
+					style={{ ...globalStyles.headerIcon, ...styles.headerIcon }}
 				/>
 			</TouchableOpacity>
 
-			<View style={styles.headerTitle}>
-				<Text style={styles.headerText}>{title}</Text>
+			<View style={globalStyles.headerTitle}>
+				<Text
+					style={{ ...globalStyles.headerText, ...styles.headerText }}
+				>
+					{title}
+				</Text>
 			</View>
 		</View>
 	);
 }
 
 const styles = StyleSheet.create({
-	header: {
-		flexDirection: "row",
-		alignItems: "center",
-		justifyContent: "center"
-	},
-	headerTitle: {
-		flexDirection: "row",
-		alignItems: "center",
-		marginLeft: 15
-	},
 	headerText: {
-		fontSize: 20,
 		color: "#000"
 	},
-	icon: {
+	headerIcon: {
 		color: "#000"
 	}
 });

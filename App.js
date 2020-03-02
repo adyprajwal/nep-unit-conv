@@ -5,7 +5,7 @@ import { AppLoading } from "expo";
 import Navigator from "./routes/drawer";
 
 const getFonts = () => {
-	return Fonts.loadAsync({
+	return Font.loadAsync({
 		"exo2-regular": require("./assets/fonts/Exo2-Regular.ttf"),
 		"exo2-bold": require("./assets/fonts/Exo2-Bold.ttf")
 	});
@@ -17,7 +17,10 @@ export default function App() {
 		return <Navigator />;
 	} else {
 		return (
-			<AppLoading startAsync={getFonts} onFinish={setFontsLoaded(true)} />
+			<AppLoading
+				startAsync={getFonts}
+				onFinish={() => setFontsLoaded(true)}
+			/>
 		);
 	}
 }
