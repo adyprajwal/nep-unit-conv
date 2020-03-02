@@ -1,18 +1,34 @@
 import React from "react";
-import { View, Text } from "react-native";
-import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import Home from "../screens/home";
+import Header from "../shared/header";
 
 const Stack = createStackNavigator();
 
 export default function HomeStack() {
 	return (
-		<Stack.Navigator initialRouteName="Home">
+		<Stack.Navigator
+			initialRouteName="Home"
+			screenOptions={{
+				headerStyle: {
+					backgroundColor: "#f4511e"
+				},
+				headerTintColor: "#fff"
+			}}
+		>
 			<Stack.Screen
 				name="Home"
 				component={Home}
-				options={{ title: "Home" }}
+				options={({ navigation }) => {
+					return {
+						headerTitle: () => (
+							<Header
+								navigation={navigation}
+								title="Nepali Land Converter"
+							/>
+						)
+					};
+				}}
 			/>
 		</Stack.Navigator>
 	);

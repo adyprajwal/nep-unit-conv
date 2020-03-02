@@ -11,7 +11,13 @@ export default function Navigator() {
 	return (
 		<NavigationContainer>
 			<Drawer.Navigator>
-				<Drawer.Screen name="Home" component={HomeStack} />
+				<Drawer.Screen
+					name="Nepali land Converter"
+					component={HomeStack}
+				/>
+				<Drawer.Screen name="Area" component={AboutStack} />
+				<Drawer.Screen name="Weight" component={AboutStack} />
+				<Drawer.Screen name="Volume" component={AboutStack} />
 				<Drawer.Screen name="About" component={AboutStack} />
 			</Drawer.Navigator>
 		</NavigationContainer>
