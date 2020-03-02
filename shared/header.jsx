@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { Entypo } from "@expo/vector-icons";
 
 export default function Header({ navigation, title }) {
@@ -8,12 +8,10 @@ export default function Header({ navigation, title }) {
 	};
 	return (
 		<View style={styles.header}>
-			<Entypo
-				name="menu"
-				size={28}
-				style={styles.icon}
-				onPress={openMenu}
-			/>
+			<TouchableOpacity onPress={openMenu}>
+				<Entypo name="menu" size={28} style={styles.icon} />
+			</TouchableOpacity>
+
 			<View style={styles.headerTitle}>
 				<Text style={styles.headerText}>{title}</Text>
 			</View>
