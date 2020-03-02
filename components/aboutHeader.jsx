@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
 
 export default function AboutHeader({ navigation, title }) {
@@ -8,12 +8,14 @@ export default function AboutHeader({ navigation, title }) {
 	};
 	return (
 		<View style={styles.header}>
-			<MaterialIcons
-				name="arrow-back"
-				size={28}
-				style={styles.icon}
-				onPress={goToPreviousScreen}
-			/>
+			<TouchableOpacity onPress={goToPreviousScreen}>
+				<MaterialIcons
+					name="arrow-back"
+					size={28}
+					style={styles.icon}
+				/>
+			</TouchableOpacity>
+
 			<View style={styles.headerTitle}>
 				<Text style={styles.headerText}>{title}</Text>
 			</View>
