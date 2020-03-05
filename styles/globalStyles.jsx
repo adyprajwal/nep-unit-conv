@@ -16,7 +16,7 @@ export const globalStyles = StyleSheet.create({
 	headerTitle: {
 		flexDirection: "row",
 		alignItems: "center",
-		marginLeft: 15
+		marginLeft: 25
 	},
 	headerText: {
 		fontFamily: "exo2-bold",
@@ -25,5 +25,14 @@ export const globalStyles = StyleSheet.create({
 	},
 	headerIcon: {
 		color: "#fff"
+	},
+	inputCard: {
+		flexDirection: "column"
+	},
+	input: {
+		borderWidth: 1,
+		borderColor: "gray",
+		height: 50,
+		marginTop: 10
 	}
 });
