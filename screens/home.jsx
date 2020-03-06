@@ -25,6 +25,8 @@ export default function Home() {
 		{ index: "8", label: "Square Meter", value: "sqmtr" },
 		{ index: "9", label: "Square Feet", value: "sqft" }
 	];
+
+	const [text, setText] = useState("Enter Values");
 	const [unit, setUnit] = useState("ropani");
 
 	const [ropani, setRopani] = useState("0");
@@ -37,11 +39,17 @@ export default function Home() {
 	const [sqmtr, setSqmtr] = useState("0");
 	const [sqft, setSqft] = useState("0");
 
-	const updateSelectedUnit = unit => {
-		setUnit(unit);
+	const handleTextChange = (text, { unit }) => {
+		setText(text);
+		convert(text, unit);
 	};
 
-	const convert = (val, { unit }) => {
+	const handleUnitChange = (value, { text }) => {
+		setUnit(value);
+		convert(text, value);
+	};
+
+	const convert = (val, unit) => {
 		if (unit == "ropani") {
 			setRopani(+(val * 1).toFixed(5));
 			setAana(+(val * 16).toFixed(5));
@@ -141,13 +149,15 @@ export default function Home() {
 				<TextInput
 					style={globalStyles.input}
 					placeholder="Enter Values"
-					onChangeText={val => convert(val, { unit })}
+					onChangeText={text => handleTextChange(text, { unit })}
 					keyboardType={"numeric"}
 				/>
 				<View>
 					<Picker
 						selectedValue={unit}
-						onValueChange={updateSelectedUnit}
+						onValueChange={value =>
+							handleUnitChange(value, { text })
+						}
 						mode="dropdown"
 					>
 						{units.map(unit => {
