@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { StyleSheet, View, Text } from "react-native";
 import { globalStyles } from "../styles/globalStyles";
 import InputCard from "../components/shared/inputCard";
+import ResultCard from "../components/shared/resultCard";
 
 export default function Home() {
 	const units = [
@@ -123,17 +124,17 @@ export default function Home() {
 	return (
 		<View style={globalStyles.container}>
 			<InputCard units={units} convert={convert} />
-			<View>
-				<Text>Ropani: {ropani}</Text>
-				<Text>Aana: {aana}</Text>
-				<Text>Paisa: {paisa}</Text>
-				<Text>Daam: {daam}</Text>
-				<Text>Bigha: {bigha}</Text>
-				<Text>Kattha: {kattha}</Text>
-				<Text>Dhur: {dhur}</Text>
-				<Text>Square Meter: {sqmtr}</Text>
-				<Text>Square Feet: {sqft}</Text>
-			</View>
+			<ResultCard
+				ropani={ropani}
+				aana={aana}
+				paisa={paisa}
+				daam={daam}
+				bigha={bigha}
+				kattha={kattha}
+				dhur={dhur}
+				sqmtr={sqmtr}
+				sqft={sqft}
+			/>
 		</View>
 	);
 }
