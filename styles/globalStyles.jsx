@@ -3,7 +3,8 @@ import { StyleSheet } from "react-native";
 export const globalStyles = StyleSheet.create({
 	container: {
 		flex: 1,
-		padding: 20
+		padding: 20,
+		backgroundColor: "#e4e6eb"
 	},
 	titleText: {
 		fontFamily: "exo2-bold"
@@ -35,37 +36,50 @@ export const globalStyles = StyleSheet.create({
 		marginBottom: 20
 	},
 	inputField: {
-		flex: 4,
+		flex: 2,
+		padding: 5,
 		fontFamily: "exo2-regular",
 		fontWeight: "bold",
 		fontSize: 18,
-		borderBottomWidth: 1,
-		borderBottomColor: "gray",
-		height: 50,
-		marginTop: 10
+		borderRadius: 6,
+		elevation: 6,
+		borderRadius: 6,
+		backgroundColor: "#fff",
+		height: 50
 	},
 	selector: {
-		flex: 3,
-		fontFamily: "exo2-regular"
+		flex: 1.7,
+		marginLeft: 5,
+		fontFamily: "exo2-regular",
+		borderRadius: 6,
+		elevation: 6,
+		backgroundColor: "#fff"
 	},
 
 	//RESULT BOX STYLES
-	resultBox: {},
+	resultBox: {
+		flex: 1,
+		borderRadius: 10,
+		elevation: 8,
+		backgroundColor: "#fff"
+	},
 	resultItem: {
 		flex: 1,
 		flexDirection: "row",
-		paddingTop: 5,
-		paddingBottom: 5
+		paddingVertical: 15,
+		paddingHorizontal: 10,
+		borderBottomWidth: 1,
+		borderBottomColor: "#eee"
 	},
 	resultValue: {
-		fontSize: 17,
-		fontFamily: "exo2-regular",
-		alignContent: "center",
-		alignItems: "flex-start"
+		flex: 4,
+		fontSize: 15,
+		fontFamily: "exo2-regular"
 	},
 	resultLabel: {
+		flex: 3,
 		fontSize: 17,
 		fontFamily: "exo2-bold",
-		flex: 3
+		justifyContent: "flex-end"
 	}
 });
