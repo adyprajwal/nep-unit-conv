@@ -1,17 +1,7 @@
 import React, { useState } from "react";
-import {
-	StyleSheet,
-	View,
-	Text,
-	FlatList,
-	TouchableOpacity,
-	TextInput,
-	Picker,
-	Keyboard,
-	TouchableWithoutFeedback
-} from "react-native";
-import InputCard from "../shared/inputCard";
+import { StyleSheet, View, Text } from "react-native";
 import { globalStyles } from "../styles/globalStyles";
+import InputCard from "../components/shared/inputCard";
 
 export default function Home() {
 	const units = [
@@ -26,9 +16,6 @@ export default function Home() {
 		{ index: "9", label: "Square Feet", value: "sqft" }
 	];
 
-	const [text, setText] = useState("Enter Values");
-	const [unit, setUnit] = useState("ropani");
-
 	const [ropani, setRopani] = useState("0");
 	const [aana, setAana] = useState("0");
 	const [paisa, setPaisa] = useState("0");
@@ -38,16 +25,6 @@ export default function Home() {
 	const [dhur, setDhur] = useState("0");
 	const [sqmtr, setSqmtr] = useState("0");
 	const [sqft, setSqft] = useState("0");
-
-	const handleTextChange = (text, { unit }) => {
-		setText(text);
-		convert(text, unit);
-	};
-
-	const handleUnitChange = (value, { text }) => {
-		setUnit(value);
-		convert(text, value);
-	};
 
 	const convert = (val, unit) => {
 		if (unit == "ropani") {
@@ -145,33 +122,7 @@ export default function Home() {
 
 	return (
 		<View style={globalStyles.container}>
-			<View style={globalStyles.inputCard}>
-				<TextInput
-					style={globalStyles.input}
-					placeholder="Enter Values"
-					onChangeText={text => handleTextChange(text, { unit })}
-					keyboardType={"numeric"}
-				/>
-				<View>
-					<Picker
-						selectedValue={unit}
-						onValueChange={value =>
-							handleUnitChange(value, { text })
-						}
-						mode="dropdown"
-					>
-						{units.map(unit => {
-							return (
-								<Picker.Item
-									key={unit.index}
-									label={`${unit.label}`}
-									value={`${unit.value}`}
-								/>
-							);
-						})}
-					</Picker>
-				</View>
-			</View>
+			<InputCard units={units} convert={convert} />
 			<View>
 				<Text>Ropani: {ropani}</Text>
 				<Text>Aana: {aana}</Text>

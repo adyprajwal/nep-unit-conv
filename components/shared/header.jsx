@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { Entypo } from "@expo/vector-icons";
-import { globalStyles } from "../styles/globalStyles";
+import { globalStyles } from "../../styles/globalStyles";
 
 export default function Header({ navigation, title }) {
 	const openMenu = () => {
