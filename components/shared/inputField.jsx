@@ -4,13 +4,11 @@ import { globalStyles } from "../../styles/globalStyles";
 
 export default function InputField({ unit, handleTextChange }) {
 	return (
-		<View>
-			<TextInput
-				style={globalStyles.input}
-				placeholder="Enter Values"
-				onChangeText={text => handleTextChange(text, { unit })}
-				keyboardType={"numeric"}
-			/>
-		</View>
+		<TextInput
+			style={globalStyles.inputField}
+			placeholder="Enter Values"
+			onChangeText={text => handleTextChange(text, { unit })}
+			keyboardType={"numeric"}
+		/>
 	);
 }

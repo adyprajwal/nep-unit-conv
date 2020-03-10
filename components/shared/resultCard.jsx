@@ -14,10 +14,14 @@ export default function ResultCard({ results }) {
 			<FlatList
 				data={results}
 				renderItem={({ item }) => (
-					<Text style={globalStyles.resultItem}>
-						<Text>{item.label}</Text>
-						<Text>{item.value}</Text>
-					</Text>
+					<View style={globalStyles.resultItem}>
+						<Text style={globalStyles.resultValue}>
+							{item.value}
+						</Text>
+						<Text style={globalStyles.resultLabel}>
+							{item.label}
+						</Text>
+					</View>
 				)}
 				keyExtractor={item => item.key}
 			/>
