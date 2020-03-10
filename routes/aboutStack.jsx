@@ -1,8 +1,6 @@
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
 import About from "../screens/about";
-import Header from "../shared/header";
 import AboutHeader from "../components/aboutHeader";
 
 const Stack = createStackNavigator();
