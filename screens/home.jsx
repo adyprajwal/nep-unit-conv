@@ -6,15 +6,15 @@ import ResultCard from "../components/shared/resultCard";
 
 export default function Home() {
 	const units = [
-		{ index: "1", label: "Ropani", value: "ropani" },
-		{ index: "2", label: "Aana", value: "aana" },
-		{ index: "3", label: "Paisa", value: "paisa" },
-		{ index: "4", label: "Daam", value: "daam" },
-		{ index: "5", label: "Bigha", value: "bigha" },
-		{ index: "6", label: "Kattha", value: "kattha" },
-		{ index: "7", label: "Dhur", value: "dhur" },
-		{ index: "8", label: "Square Meter", value: "sqmtr" },
-		{ index: "9", label: "Square Feet", value: "sqft" }
+		{ index: "0", label: "Ropani", value: "ropani" },
+		{ index: "1", label: "Aana", value: "aana" },
+		{ index: "2", label: "Paisa", value: "paisa" },
+		{ index: "3", label: "Daam", value: "daam" },
+		{ index: "4", label: "Bigha", value: "bigha" },
+		{ index: "5", label: "Kattha", value: "kattha" },
+		{ index: "6", label: "Dhur", value: "dhur" },
+		{ index: "7", label: "Square Meter", value: "sqmtr" },
+		{ index: "8", label: "Square Feet", value: "sqft" }
 	];
 
 	const [ropani, setRopani] = useState("0");
@@ -121,20 +121,22 @@ export default function Home() {
 		}
 	};
 
+	const results = [
+		{ key: 1, label: "Ropani", value: ropani },
+		{ key: 2, label: "Aana", value: aana },
+		{ key: 3, label: "Paisa", value: paisa },
+		{ key: 4, label: "Daam", value: daam },
+		{ key: 5, label: "Bigha", value: bigha },
+		{ key: 6, label: "Kattha", value: kattha },
+		{ key: 7, label: "Dhur", value: dhur },
+		{ key: 8, label: "Square Meter", value: sqmtr },
+		{ key: 9, label: "Square Feet", value: sqft }
+	];
+
 	return (
 		<View style={globalStyles.container}>
 			<InputCard units={units} convert={convert} />
-			<ResultCard
-				ropani={ropani}
-				aana={aana}
-				paisa={paisa}
-				daam={daam}
-				bigha={bigha}
-				kattha={kattha}
-				dhur={dhur}
-				sqmtr={sqmtr}
-				sqft={sqft}
-			/>
+			<ResultCard units={units} results={results} />
 		</View>
 	);
 }

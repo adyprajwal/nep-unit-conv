@@ -1,34 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
 import {
 	StyleSheet,
 	View,
 	Text,
-	FlatList,
-	TouchableOpacity
+	TouchableOpacity,
+	FlatList
 } from "react-native";
+import { globalStyles } from "../../styles/globalStyles";
 
-export default function ResultCard({
-	ropani,
-	aana,
-	paisa,
-	daam,
-	bigha,
-	kattha,
-	dhur,
-	sqmtr,
-	sqft
-}) {
+export default function ResultCard({ results }) {
 	return (
-		<View>
-			<Text>Ropani: {ropani}</Text>
-			<Text>Aana: {aana}</Text>
-			<Text>Paisa: {paisa}</Text>
-			<Text>Daam: {daam}</Text>
-			<Text>Bigha: {bigha}</Text>
-			<Text>Kattha: {kattha}</Text>
-			<Text>Dhur: {dhur}</Text>
-			<Text>Square Meter: {sqmtr}</Text>
-			<Text>Square Feet: {sqft}</Text>
+		<View style={globalStyles.resultBox}>
+			<FlatList
+				data={results}
+				renderItem={({ item }) => (
+					<Text style={globalStyles.resultItem}>
+						<Text>{item.label}</Text>
+						<Text>{item.value}</Text>
+					</Text>
+				)}
+				keyExtractor={item => item.key}
+			/>
 		</View>
 	);
 }
