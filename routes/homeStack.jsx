@@ -21,10 +21,7 @@ export default function HomeStack() {
 				options={({ navigation }) => {
 					return {
 						headerTitle: () => (
-							<Header
-								navigation={navigation}
-								title="Nepali Land Converter"
-							/>
+							<Header navigation={navigation} title="Area" />
 						)
 					};
 				}}

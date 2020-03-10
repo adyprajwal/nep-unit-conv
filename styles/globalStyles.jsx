@@ -8,6 +8,8 @@ export const globalStyles = StyleSheet.create({
 	titleText: {
 		fontFamily: "exo2-bold"
 	},
+
+	//HEADER STYLES
 	header: {
 		flexDirection: "row",
 		alignItems: "center",
@@ -26,24 +28,44 @@ export const globalStyles = StyleSheet.create({
 	headerIcon: {
 		color: "#fff"
 	},
+
+	//INPUT FIELD STYLES
 	inputCard: {
-		flexDirection: "column"
+		flexDirection: "row",
+		marginBottom: 20
 	},
-	input: {
+	inputField: {
+		flex: 4,
 		fontFamily: "exo2-regular",
-		borderWidth: 1,
-		borderColor: "gray",
+		fontWeight: "bold",
+		fontSize: 18,
+		borderBottomWidth: 1,
+		borderBottomColor: "gray",
 		height: 50,
 		marginTop: 10
 	},
 	selector: {
+		flex: 3,
 		fontFamily: "exo2-regular"
 	},
+
+	//RESULT BOX STYLES
 	resultBox: {},
 	resultItem: {
-		fontSize: 20,
-		fontFamily: "exo2-regular",
+		flex: 1,
+		flexDirection: "row",
 		paddingTop: 5,
 		paddingBottom: 5
+	},
+	resultValue: {
+		fontSize: 17,
+		fontFamily: "exo2-regular",
+		alignContent: "center",
+		alignItems: "flex-start"
+	},
+	resultLabel: {
+		fontSize: 17,
+		fontFamily: "exo2-bold",
+		flex: 3
 	}
 });
