@@ -30,9 +30,20 @@ export const globalStyles = StyleSheet.create({
 		flexDirection: "column"
 	},
 	input: {
+		fontFamily: "exo2-regular",
 		borderWidth: 1,
 		borderColor: "gray",
 		height: 50,
 		marginTop: 10
+	},
+	selector: {
+		fontFamily: "exo2-regular"
+	},
+	resultBox: {},
+	resultItem: {
+		fontSize: 20,
+		fontFamily: "exo2-regular",
+		paddingTop: 5,
+		paddingBottom: 5
 	}
 });
