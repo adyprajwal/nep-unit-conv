@@ -3,9 +3,10 @@ import {
 	StyleSheet,
 	View,
 	Text,
-	TouchableOpacity,
+	TouchableNativeFeedback,
 	FlatList
 } from "react-native";
+import KeyboardSpacer from "react-native-keyboard-spacer";
 import { globalStyles } from "../../styles/globalStyles";
 
 export default function ResultCard({ results }) {
@@ -14,17 +15,20 @@ export default function ResultCard({ results }) {
 			<FlatList
 				data={results}
 				renderItem={({ item }) => (
-					<View style={globalStyles.resultItem}>
-						<Text style={globalStyles.resultValue}>
-							{item.value}
-						</Text>
-						<Text style={globalStyles.resultLabel}>
-							{item.label}
-						</Text>
-					</View>
+					<TouchableNativeFeedback>
+						<View style={globalStyles.resultItem}>
+							<Text style={globalStyles.resultValue}>
+								{item.value}
+							</Text>
+							<Text style={globalStyles.resultLabel}>
+								{item.label}
+							</Text>
+						</View>
+					</TouchableNativeFeedback>
 				)}
 				keyExtractor={item => item.key}
 			/>
+			<KeyboardSpacer />
 		</View>
 	);
 }
