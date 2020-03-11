@@ -5,7 +5,7 @@ import InputCard from "../components/shared/inputCard";
 import ResultCard from "../components/shared/resultCard";
 import KeyboardSpacer from "react-native-keyboard-spacer";
 
-export default function Home() {
+export default function Weight() {
 	const units = [
 		{ index: "0", label: "Ropani", value: "ropani" },
 		{ index: "1", label: "Aana", value: "aana" },

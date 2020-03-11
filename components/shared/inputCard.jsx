@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { StyleSheet, View, Text, Picker } from "react-native";
+import { StyleSheet, View } from "react-native";
 import { globalStyles } from "../../styles/globalStyles";
 import InputField from "./inputField";
 import Selector from "./selector";

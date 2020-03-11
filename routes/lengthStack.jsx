@@ -1,27 +1,27 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import Home from "../screens/home";
+import Length from "../screens/length";
 import Header from "../components/shared/header";
 
 const Stack = createStackNavigator();
 
-export default function HomeStack() {
+export default function LengthStack() {
 	return (
 		<Stack.Navigator
-			initialRouteName="Home"
+			initialRouteName="Length"
 			screenOptions={{
 				headerStyle: {
-					backgroundColor: "#ff3526"
+					backgroundColor: "#00aeff"
 				}
 			}}
 		>
 			<Stack.Screen
-				name="Home"
-				component={Home}
+				name="Length"
+				component={Length}
 				options={({ navigation }) => {
 					return {
 						headerTitle: () => (
-							<Header navigation={navigation} title="Area" />
+							<Header navigation={navigation} title="Length" />
 						)
 					};
 				}}

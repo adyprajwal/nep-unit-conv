@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, View, TextInput } from "react-native";
+import { TextInput } from "react-native";
 import { globalStyles } from "../../styles/globalStyles";
 
 export default function InputField({ unit, handleTextChange }) {

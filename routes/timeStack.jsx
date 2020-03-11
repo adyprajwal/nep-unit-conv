@@ -1,27 +1,27 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import Home from "../screens/home";
+import Time from "../screens/length";
 import Header from "../components/shared/header";
 
 const Stack = createStackNavigator();
 
-export default function HomeStack() {
+export default function TimeStack() {
 	return (
 		<Stack.Navigator
-			initialRouteName="Home"
+			initialRouteName="Time"
 			screenOptions={{
 				headerStyle: {
-					backgroundColor: "#ff3526"
+					backgroundColor: "#52de60"
 				}
 			}}
 		>
 			<Stack.Screen
-				name="Home"
-				component={Home}
+				name="Time"
+				component={Time}
 				options={({ navigation }) => {
 					return {
 						headerTitle: () => (
-							<Header navigation={navigation} title="Area" />
+							<Header navigation={navigation} title="Time" />
 						)
 					};
 				}}
