@@ -6,7 +6,6 @@ import {
 	TouchableNativeFeedback,
 	FlatList
 } from "react-native";
-import KeyboardSpacer from "react-native-keyboard-spacer";
 import { globalStyles } from "../../styles/globalStyles";
 
 export default function ResultCard({ results }) {
@@ -28,7 +27,6 @@ export default function ResultCard({ results }) {
 				)}
 				keyExtractor={item => item.key}
 			/>
-			<KeyboardSpacer />
 		</View>
 	);
 }
