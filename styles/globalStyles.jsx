@@ -4,7 +4,7 @@ export const globalStyles = StyleSheet.create({
 	container: {
 		flex: 1,
 		padding: 20,
-		backgroundColor: "#e4e6eb"
+		backgroundColor: "#f5f3f0"
 	},
 	titleText: {
 		fontFamily: "exo2-bold"
@@ -38,8 +38,7 @@ export const globalStyles = StyleSheet.create({
 	inputField: {
 		flex: 2,
 		padding: 5,
-		fontFamily: "exo2-regular",
-		fontWeight: "bold",
+		fontFamily: "sans-serif-medium",
 		fontSize: 18,
 		borderRadius: 6,
 		elevation: 6,
@@ -60,7 +59,7 @@ export const globalStyles = StyleSheet.create({
 	resultBox: {
 		flex: 1,
 		borderRadius: 10,
-		elevation: 8,
+		elevation: 6,
 		backgroundColor: "#fff"
 	},
 	resultItem: {
@@ -74,12 +73,12 @@ export const globalStyles = StyleSheet.create({
 	resultValue: {
 		flex: 4,
 		fontSize: 15,
-		fontFamily: "exo2-regular"
+		fontFamily: "sans-serif"
 	},
 	resultLabel: {
 		flex: 3,
 		fontSize: 17,
-		fontFamily: "exo2-bold",
+		fontFamily: "sans-serif-medium",
 		justifyContent: "flex-end"
 	}
 });
