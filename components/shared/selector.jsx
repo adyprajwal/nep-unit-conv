@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, View, Text, Picker } from "react-native";
+import { StyleSheet, View, Picker } from "react-native";
 import { globalStyles } from "../../styles/globalStyles";
 
 export default function Selector({ handleUnitChange, units, text, unit }) {

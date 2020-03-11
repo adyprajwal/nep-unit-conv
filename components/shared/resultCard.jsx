@@ -1,11 +1,5 @@
 import React from "react";
-import {
-	StyleSheet,
-	View,
-	Text,
-	TouchableNativeFeedback,
-	FlatList
-} from "react-native";
+import { View, Text, TouchableNativeFeedback, FlatList } from "react-native";
 import { globalStyles } from "../../styles/globalStyles";
 
 export default function ResultCard({ results }) {
@@ -25,9 +19,8 @@ export default function ResultCard({ results }) {
 						</View>
 					</TouchableNativeFeedback>
 				)}
-				keyExtractor={item => item.key}
+				keyExtractor={item => item.key.toString()}
 			/>
 		</View>
 	);
 }
-const styles = StyleSheet.create({});
