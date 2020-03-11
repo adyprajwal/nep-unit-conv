@@ -7,17 +7,19 @@ import KeyboardSpacer from "react-native-keyboard-spacer";
 
 export default function Home() {
 	const units = [
-		{ index: "0", label: "Ropani", value: "ropani" },
-		{ index: "1", label: "Aana", value: "aana" },
-		{ index: "2", label: "Paisa", value: "paisa" },
-		{ index: "3", label: "Daam", value: "daam" },
-		{ index: "4", label: "Bigha", value: "bigha" },
-		{ index: "5", label: "Kattha", value: "kattha" },
-		{ index: "6", label: "Dhur", value: "dhur" },
-		{ index: "7", label: "Square Meter", value: "sqmtr" },
-		{ index: "8", label: "Square Feet", value: "sqft" }
+		{ index: "1", label: "Khetmuri", value: "khetmuri" },
+		{ index: "2", label: "Ropani", value: "ropani" },
+		{ index: "3", label: "Aana", value: "aana" },
+		{ index: "4", label: "Paisa", value: "paisa" },
+		{ index: "5", label: "Daam", value: "daam" },
+		{ index: "6", label: "Bigha", value: "bigha" },
+		{ index: "7", label: "Kattha", value: "kattha" },
+		{ index: "8", label: "Dhur", value: "dhur" },
+		{ index: "9", label: "Square Meter", value: "sqmtr" },
+		{ index: "10", label: "Square Feet", value: "sqft" }
 	];
 
+	const [khetmuri, setKhetmuri] = useState("0");
 	const [ropani, setRopani] = useState("0");
 	const [aana, setAana] = useState("0");
 	const [paisa, setPaisa] = useState("0");
@@ -29,7 +31,19 @@ export default function Home() {
 	const [sqft, setSqft] = useState("0");
 
 	const convert = (val, unit) => {
-		if (unit == "ropani") {
+		if (unit == "khetmuri") {
+			setKhetmuri(+(val * 1).toFixed(5));
+			setRopani(+(val * 25).toFixed(5));
+			setAana(+(val * 400).toFixed(5));
+			setPaisa(+(val * 1600).toFixed(5));
+			setDaam(+(val * 6400).toFixed(5));
+			setBigha(+(val / 0.5325).toFixed(5));
+			setKattha(+(val * 37.55825).toFixed(5));
+			setDhur(+(val * 751.166).toFixed(5));
+			setSqmtr(+(val * 12718).toFixed(5));
+			setSqft(+(val * 136900).toFixed(5));
+		} else if (unit == "ropani") {
+			setKhetmuri(+(val / 25).toFixed(5));
 			setRopani(+(val * 1).toFixed(5));
 			setAana(+(val * 16).toFixed(5));
 			setPaisa(+(val * 64).toFixed(5));
@@ -40,6 +54,7 @@ export default function Home() {
 			setSqmtr(+(val * 508.72).toFixed(5));
 			setSqft(+(val * 5476).toFixed(5));
 		} else if (unit == "aana") {
+			setKhetmuri(+(val / 400).toFixed(5));
 			setRopani(+(val / 16).toFixed(5));
 			setAana(+(val * 1).toFixed(5));
 			setPaisa(+(val * 4).toFixed(5));
@@ -50,6 +65,7 @@ export default function Home() {
 			setSqmtr(+(val * 31.8).toFixed(5));
 			setSqft(+(val * 342.25).toFixed(5));
 		} else if (unit == "paisa") {
+			setKhetmuri(+(val / 1600).toFixed(5));
 			setRopani(+(val / 64).toFixed(5));
 			setAana(+(val / 4).toFixed(5));
 			setPaisa(+(val * 1).toFixed(5));
@@ -60,6 +76,7 @@ export default function Home() {
 			setSqmtr(+(val * 85.56).toFixed(5));
 			setSqft(+(val * 7.95).toFixed(5));
 		} else if (unit == "daam") {
+			setKhetmuri(+(val / 6400).toFixed(5));
 			setRopani(+(val / 256).toFixed(5));
 			setAana(+(val / 16).toFixed(5));
 			setPaisa(+(val / 4).toFixed(5));
@@ -70,6 +87,7 @@ export default function Home() {
 			setSqmtr(+(val * 1.99).toFixed(5));
 			setSqft(+(val * 21.39).toFixed(5));
 		} else if (unit == "bigha") {
+			setKhetmuri(+(val * 0.5325).toFixed(5));
 			setRopani(+(val * 13.31264).toFixed(5));
 			setAana(+(val * 213.022).toFixed(5));
 			setPaisa(+(val * 852.03366).toFixed(5));
@@ -80,6 +98,7 @@ export default function Home() {
 			setSqmtr(+(val * 6772.63).toFixed(5));
 			setSqft(+(val * 72900).toFixed(5));
 		} else if (unit == "kattha") {
+			setKhetmuri(+(val / 37.55825).toFixed(5));
 			setRopani(+(val / 1.50233).toFixed(5));
 			setAana(+(val * 10.6501).toFixed(5));
 			setPaisa(+(val * 42.60168).toFixed(5));
@@ -90,6 +109,7 @@ export default function Home() {
 			setSqmtr(+(val * 338.63).toFixed(5));
 			setSqft(+(val * 3645).toFixed(5));
 		} else if (unit == "dhur") {
+			setKhetmuri(+(val / 751.166).toFixed(5));
 			setRopani(+(val / 30.04664).toFixed(5));
 			setAana(+(val / 1.87791).toFixed(5));
 			setPaisa(+(val * 2.13008).toFixed(5));
@@ -100,6 +120,7 @@ export default function Home() {
 			setSqmtr(+(val * 16.93).toFixed(5));
 			setSqft(+(val * 182.25).toFixed(5));
 		} else if (unit == "sqmtr") {
+			setKhetmuri(+(val / 12718).toFixed(5));
 			setRopani(+(val / 508.72).toFixed(5));
 			setAana(+(val / 31.8).toFixed(5));
 			setPaisa(+(val / 7.95).toFixed(5));
@@ -110,6 +131,7 @@ export default function Home() {
 			setSqmtr(+(val * 1).toFixed(5));
 			setSqft(+(val * 10.7639).toFixed(5));
 		} else if (unit == "sqft") {
+			setKhetmuri(+(val / 136900).toFixed(5));
 			setRopani(+(val / 5476).toFixed(5));
 			setAana(+(val / 342.25).toFixed(5));
 			setPaisa(+(val / 85.56).toFixed(5));
@@ -123,20 +145,21 @@ export default function Home() {
 	};
 
 	const results = [
-		{ key: 1, label: "Ropani", value: ropani },
-		{ key: 2, label: "Aana", value: aana },
-		{ key: 3, label: "Paisa", value: paisa },
-		{ key: 4, label: "Daam", value: daam },
-		{ key: 5, label: "Bigha", value: bigha },
-		{ key: 6, label: "Kattha", value: kattha },
-		{ key: 7, label: "Dhur", value: dhur },
-		{ key: 8, label: "Square Meter", value: sqmtr },
-		{ key: 9, label: "Square Feet", value: sqft }
+		{ key: 1, label: "Khetmuri", value: khetmuri },
+		{ key: 2, label: "Ropani", value: ropani },
+		{ key: 3, label: "Aana", value: aana },
+		{ key: 4, label: "Paisa", value: paisa },
+		{ key: 5, label: "Daam", value: daam },
+		{ key: 6, label: "Bigha", value: bigha },
+		{ key: 7, label: "Kattha", value: kattha },
+		{ key: 8, label: "Dhur", value: dhur },
+		{ key: 9, label: "Square Meter", value: sqmtr },
+		{ key: 10, label: "Square Feet", value: sqft }
 	];
 
 	return (
 		<View style={globalStyles.container}>
-			<InputCard units={units} convert={convert} />
+			<InputCard units={units} convert={convert} default={units[0]} />
 			<ResultCard units={units} results={results} />
 			<KeyboardSpacer />
 		</View>

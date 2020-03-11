@@ -5,7 +5,8 @@ import InputField from "./inputField";
 import Selector from "./selector";
 
 export default function InputCard({ units, convert }) {
-	const [unit, setUnit] = useState("ropani");
+	const [item] = units;
+	const [unit, setUnit] = useState(item.label);
 	const [text, setText] = useState("Enter Values");
 
 	const handleTextChange = (text, { unit }) => {

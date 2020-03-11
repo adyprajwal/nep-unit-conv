@@ -78,6 +78,7 @@ export const globalStyles = StyleSheet.create({
 	resultLabel: {
 		flex: 3,
 		fontSize: 17,
+		color: "#757373",
 		fontFamily: "sans-serif-medium",
 		justifyContent: "flex-end"
 	}
