@@ -168,7 +168,7 @@ export default function Home() {
 		}
 	};
 
-	const results = [
+	let results = [
 		{ key: 1, label: "Square Meter", value: sqmtr },
 		{ key: 2, label: "Square Feet", value: sqft },
 		{ key: 3, label: "Khetmuri", value: khetmuri },
