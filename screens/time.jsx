@@ -7,27 +7,23 @@ import KeyboardSpacer from "react-native-keyboard-spacer";
 
 export default function Time() {
 	const units = [
-		{ index: "1", label: "Devyug", value: "devyug" },
-		{ index: "2", label: "Muhrat", value: "muhrat" },
-		{ index: "3", label: "Ghadi", value: "ghadi" },
-		{ index: "4", label: "Pala", value: "pala" },
-		{ index: "5", label: "Vipala", value: "vipala" },
-		{ index: "6", label: "Nimesh", value: "nimesh" },
-		{ index: "7", label: "Century", value: "century" },
-		{ index: "8", label: "Decade", value: "decade" },
-		{ index: "9", label: "Year", value: "year" },
-		{ index: "10", label: "Month", value: "month" },
+		{ index: "1", label: "Muhrat", value: "muhrat" },
+		{ index: "2", label: "Ghadi", value: "ghadi" },
+		{ index: "3", label: "Pala", value: "pala" },
+		{ index: "4", label: "Vipala", value: "vipala" },
+		{ index: "5", label: "Nimesh", value: "nimesh" },
+		{ index: "6", label: "Millisecond", value: "millisec" },
+		{ index: "7", label: "Second", value: "second" },
+		{ index: "8", label: "Minute", value: "minute" },
+		{ index: "9", label: "Hour", value: "hour" },
+		{ index: "10", label: "Day", value: "day" },
 		{ index: "11", label: "Week", value: "week" },
-		{ index: "12", label: "Day", value: "day" },
-		{ index: "13", label: "Hour", value: "hour" },
-		{ index: "14", label: "Minute", value: "minute" },
-		{ index: "15", label: "Second", value: "second" },
-		{ index: "16", label: "Millisecond", value: "millisec" },
-		{ index: "17", label: "Microsecond", value: "microsec" },
-		{ index: "18", label: "Nanosecond", value: "nanosec" }
+		{ index: "12", label: "Month", value: "month" },
+		{ index: "13", label: "Year", value: "year" },
+		{ index: "14", label: "Decade", value: "decade" },
+		{ index: "15", label: "Century", value: "century" }
 	];
 
-	const [devyug, setDevyug] = useState("0");
 	const [muhrat, setMuhrat] = useState("0");
 	const [ghadi, setGhadi] = useState("0");
 	const [pala, setPala] = useState("0");
@@ -43,31 +39,9 @@ export default function Time() {
 	const [minute, setMinute] = useState("0");
 	const [second, setSecond] = useState("0");
 	const [millisec, setMillisec] = useState("0");
-	const [microsec, setMicrosec] = useState("0");
-	const [nanosec, setNanosec] = useState("0");
 
 	const convert = (val, unit) => {
-		if (unit == "Devyug") {
-			setDevyug(+(val * 1).toFixed(5));
-			setMuhrat(+(val * 16).toFixed(5));
-			setGhadi(+(val * 64).toFixed(5));
-			setPala(+(val * 256).toFixed(5));
-			setVipala(+(val / 13.31264).toFixed(5));
-			setNimesh(+(val * 1.50233).toFixed(5));
-			setCentury(+(val * 30.04664).toFixed(5));
-			setDecade(+(val * 508.72).toFixed(5));
-			setYear(+(val * 5476).toFixed(5));
-			setMonth(+(val * 1).toFixed(5));
-			setWeek(+(val / 4).toFixed(5));
-			setDay(+(val * 4).toFixed(5));
-			setHour(+(val * 16).toFixed(5));
-			setMinute(+(val * 64).toFixed(5));
-			setSecond(+(val / 53.25056).toFixed(5));
-			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Muhrat") {
-			setDevyug(+(val / 16).toFixed(5));
+		if (unit == "muhrat") {
 			setMuhrat(+(val * 1).toFixed(5));
 			setGhadi(+(val * 4).toFixed(5));
 			setPala(+(val * 16).toFixed(5));
@@ -83,10 +57,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Ghadi") {
-			setDevyug(+(val / 64).toFixed(5));
+		} else if (unit == "ghadi") {
 			setMuhrat(+(val / 4).toFixed(5));
 			setGhadi(+(val * 1).toFixed(5));
 			setPala(+(val * 4).toFixed(5));
@@ -102,10 +73,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Pala") {
-			setDevyug(+(val / 256).toFixed(5));
+		} else if (unit == "pala") {
 			setMuhrat(+(val / 16).toFixed(5));
 			setGhadi(+(val / 4).toFixed(5));
 			setPala(+(val * 1).toFixed(5));
@@ -121,10 +89,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Vipala") {
-			setDevyug(+(val * 13.31264).toFixed(5));
+		} else if (unit == "vipala") {
 			setMuhrat(+(val * 213.022).toFixed(5));
 			setGhadi(+(val * 852.03366).toFixed(5));
 			setPala(+(val * 3408.13464).toFixed(5));
@@ -140,10 +105,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Nimesh") {
-			setDevyug(+(val / 1.50233).toFixed(5));
+		} else if (unit == "nimesh") {
 			setMuhrat(+(val * 10.6501).toFixed(5));
 			setGhadi(+(val * 42.60168).toFixed(5));
 			setPala(+(val * 170.40673).toFixed(5));
@@ -159,10 +121,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Century") {
-			setDevyug(+(val / 30.04664).toFixed(5));
+		} else if (unit == "century") {
 			setMuhrat(+(val / 1.87791).toFixed(5));
 			setGhadi(+(val * 2.13008).toFixed(5));
 			setPala(+(val * 8.52034).toFixed(5));
@@ -178,10 +137,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Decade") {
-			setDevyug(+(val / 508.72).toFixed(5));
+		} else if (unit == "decade") {
 			setMuhrat(+(val / 31.8).toFixed(5));
 			setGhadi(+(val / 7.95).toFixed(5));
 			setPala(+(val / 1.99).toFixed(5));
@@ -197,10 +153,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Year") {
-			setDevyug(+(val / 5476).toFixed(5));
+		} else if (unit == "year") {
 			setMuhrat(+(val / 342.25).toFixed(5));
 			setGhadi(+(val / 85.56).toFixed(5));
 			setPala(+(val / 21.39).toFixed(5));
@@ -216,10 +169,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Month") {
-			setDevyug(+(val / 5476).toFixed(5));
+		} else if (unit == "month") {
 			setMuhrat(+(val / 342.25).toFixed(5));
 			setGhadi(+(val / 85.56).toFixed(5));
 			setPala(+(val / 21.39).toFixed(5));
@@ -235,10 +185,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Week") {
-			setDevyug(+(val / 5476).toFixed(5));
+		} else if (unit == "week") {
 			setMuhrat(+(val / 342.25).toFixed(5));
 			setGhadi(+(val / 85.56).toFixed(5));
 			setPala(+(val / 21.39).toFixed(5));
@@ -254,10 +201,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Day") {
-			setDevyug(+(val / 5476).toFixed(5));
+		} else if (unit == "day") {
 			setMuhrat(+(val / 342.25).toFixed(5));
 			setGhadi(+(val / 85.56).toFixed(5));
 			setPala(+(val / 21.39).toFixed(5));
@@ -273,10 +217,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Hour") {
-			setDevyug(+(val / 5476).toFixed(5));
+		} else if (unit == "hour") {
 			setMuhrat(+(val / 342.25).toFixed(5));
 			setGhadi(+(val / 85.56).toFixed(5));
 			setPala(+(val / 21.39).toFixed(5));
@@ -292,10 +233,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Minute") {
-			setDevyug(+(val / 5476).toFixed(5));
+		} else if (unit == "minute") {
 			setMuhrat(+(val / 342.25).toFixed(5));
 			setGhadi(+(val / 85.56).toFixed(5));
 			setPala(+(val / 21.39).toFixed(5));
@@ -311,10 +249,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Second") {
-			setDevyug(+(val / 5476).toFixed(5));
+		} else if (unit == "second") {
 			setMuhrat(+(val / 342.25).toFixed(5));
 			setGhadi(+(val / 85.56).toFixed(5));
 			setPala(+(val / 21.39).toFixed(5));
@@ -330,10 +265,7 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "Millisecond") {
-			setDevyug(+(val / 5476).toFixed(5));
+		} else if (unit == "millisecond") {
 			setMuhrat(+(val / 342.25).toFixed(5));
 			setGhadi(+(val / 85.56).toFixed(5));
 			setPala(+(val / 21.39).toFixed(5));
@@ -349,30 +281,25 @@ export default function Time() {
 			setMinute(+(val * 64).toFixed(5));
 			setSecond(+(val / 53.25056).toFixed(5));
 			setMillisec(+(val * 0.3755825).toFixed(5));
-			setMicrosec(+(val * 0.3755825).toFixed(5));
-			setNanosec(+(val * 0.3755825).toFixed(5));
 		}
 	};
 
 	const results = [
-		{ key: 1, label: "Devyug", value: devyug },
-		{ key: 2, label: "Muhrat", value: muhrat },
-		{ key: 3, label: "Ghadi", value: ghadi },
-		{ key: 4, label: "Pala", value: pala },
-		{ key: 5, label: "Vipala", value: vipala },
-		{ key: 6, label: "Nimesh", value: nimesh },
-		{ key: 7, label: "Century", value: century },
-		{ key: 8, label: "Decade", value: decade },
-		{ key: 9, label: "Year", value: year },
-		{ key: 10, label: "Month", value: month },
-		{ key: 11, label: "Week", value: week },
-		{ key: 12, label: "Day", value: day },
-		{ key: 13, label: "Hour", value: hour },
-		{ key: 14, label: "Minute", value: minute },
-		{ key: 15, label: "Second", value: second },
-		{ key: 16, label: "Millisecond", value: millisec },
-		{ key: 17, label: "Microsecond", value: microsec },
-		{ key: 18, label: "Nanosecond", value: nanosec }
+		{ key: 1, label: "Millisecond", value: millisec },
+		{ key: 2, label: "Second", value: second },
+		{ key: 3, label: "Minute", value: minute },
+		{ key: 4, label: "Hour", value: hour },
+		{ key: 5, label: "Day", value: day },
+		{ key: 6, label: "Week", value: week },
+		{ key: 7, label: "Month", value: month },
+		{ key: 8, label: "Year", value: year },
+		{ key: 9, label: "Decade", value: decade },
+		{ key: 10, label: "Century", value: century },
+		{ key: 11, label: "Muhrat", value: muhrat },
+		{ key: 12, label: "Ghadi", value: ghadi },
+		{ key: 13, label: "Pala", value: pala },
+		{ key: 14, label: "Vipala", value: vipala },
+		{ key: 15, label: "Nimesh", value: nimesh }
 	];
 
 	return (
