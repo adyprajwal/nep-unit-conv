@@ -1,6 +1,6 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import Volume from "../screens/length";
+import Volume from "../screens/volume";
 import Header from "../components/shared/header";
 
 const Stack = createStackNavigator();
@@ -16,7 +16,7 @@ export default function VolumeStack() {
 			}}
 		>
 			<Stack.Screen
-				name="Length"
+				name="Volume"
 				component={Volume}
 				options={({ navigation }) => {
 					return {
