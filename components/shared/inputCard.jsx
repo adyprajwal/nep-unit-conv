@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { StyleSheet, View } from "react-native";
+import { View } from "react-native";
 import { globalStyles } from "../../styles/globalStyles";
 import InputField from "./inputField";
 import Selector from "./selector";
@@ -33,5 +33,3 @@ export default function InputCard({ units, convert }) {
 		</View>
 	);
 }
-
-const styles = StyleSheet.create({});
