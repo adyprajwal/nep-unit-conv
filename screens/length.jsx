@@ -32,7 +32,7 @@ export default function Length() {
 	const [vittaa, setVittaa] = useState("0");
 	const [vitasta, setVitasta] = useState("0");
 	const [dhanurmushti, setDhanurmushti] = useState("0");
-	const [dharnugrah, setDharnugrah] = useState("0");
+	const [dharnugrah, setDhanurgrah] = useState("0");
 	const [angul, setAngul] = useState("0");
 	const [kilometer, setKilometer] = useState("0");
 	const [meter, setMeter] = useState("0");
@@ -51,7 +51,7 @@ export default function Length() {
 			setVittaa(+(val / 13.31264).toFixed(5));
 			setVitasta(+(val * 1.50233).toFixed(5));
 			setDhanurmushti(+(val * 30.04664).toFixed(5));
-			setDharnugrah(+(val * 508.72).toFixed(5));
+			setDhanurgrah(+(val * 508.72).toFixed(5));
 			setAngul(+(val * 5476).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -68,7 +68,7 @@ export default function Length() {
 			setVittaa(+(val / 213.0022).toFixed(5));
 			setVitasta(+(val / 10.6501).toFixed(5));
 			setDhanurmushti(+(val * 1.87791).toFixed(5));
-			setDharnugrah(+(val * 31.8).toFixed(5));
+			setDhanurgrah(+(val * 31.8).toFixed(5));
 			setAngul(+(val * 342.25).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -85,7 +85,7 @@ export default function Length() {
 			setVittaa(+(val / 852.03366).toFixed(5));
 			setVitasta(+(val / 42.60168).toFixed(5));
 			setDhanurmushti(+(val / 2.13008).toFixed(5));
-			setDharnugrah(+(val * 85.56).toFixed(5));
+			setDhanurgrah(+(val * 85.56).toFixed(5));
 			setAngul(+(val * 7.95).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -102,7 +102,7 @@ export default function Length() {
 			setVittaa(+(val / 3408.13464).toFixed(5));
 			setVitasta(+(val / 170.40673).toFixed(5));
 			setDhanurmushti(+(val / 8.52034).toFixed(5));
-			setDharnugrah(+(val * 1.99).toFixed(5));
+			setDhanurgrah(+(val * 1.99).toFixed(5));
 			setAngul(+(val * 21.39).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -119,7 +119,7 @@ export default function Length() {
 			setVittaa(+(val * 1).toFixed(5));
 			setVitasta(+(val * 20).toFixed(5));
 			setDhanurmushti(+(val * 400).toFixed(5));
-			setDharnugrah(+(val * 6772.63).toFixed(5));
+			setDhanurgrah(+(val * 6772.63).toFixed(5));
 			setAngul(+(val * 72900).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -136,7 +136,7 @@ export default function Length() {
 			setVittaa(+(val / 20).toFixed(5));
 			setVitasta(+(val * 1).toFixed(5));
 			setDhanurmushti(+(val * 20).toFixed(5));
-			setDharnugrah(+(val * 338.63).toFixed(5));
+			setDhanurgrah(+(val * 338.63).toFixed(5));
 			setAngul(+(val * 3645).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -153,7 +153,7 @@ export default function Length() {
 			setVittaa(+(val / 400).toFixed(5));
 			setVitasta(+(val / 20).toFixed(5));
 			setDhanurmushti(+(val * 1).toFixed(5));
-			setDharnugrah(+(val * 16.93).toFixed(5));
+			setDhanurgrah(+(val * 16.93).toFixed(5));
 			setAngul(+(val * 182.25).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -170,7 +170,7 @@ export default function Length() {
 			setVittaa(+(val / 6772.63).toFixed(5));
 			setVitasta(+(val / 338.63).toFixed(5));
 			setDhanurmushti(+(val / 16.93).toFixed(5));
-			setDharnugrah(+(val * 1).toFixed(5));
+			setDhanurgrah(+(val * 1).toFixed(5));
 			setAngul(+(val * 10.7639).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -187,7 +187,7 @@ export default function Length() {
 			setVittaa(+(val / 72900).toFixed(5));
 			setVitasta(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
-			setDharnugrah(+(val / 10.7639).toFixed(5));
+			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -204,7 +204,7 @@ export default function Length() {
 			setVittaa(+(val / 72900).toFixed(5));
 			setVitasta(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
-			setDharnugrah(+(val / 10.7639).toFixed(5));
+			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -221,7 +221,7 @@ export default function Length() {
 			setVittaa(+(val / 72900).toFixed(5));
 			setVitasta(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
-			setDharnugrah(+(val / 10.7639).toFixed(5));
+			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -238,7 +238,7 @@ export default function Length() {
 			setVittaa(+(val / 72900).toFixed(5));
 			setVitasta(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
-			setDharnugrah(+(val / 10.7639).toFixed(5));
+			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -255,7 +255,7 @@ export default function Length() {
 			setVittaa(+(val / 72900).toFixed(5));
 			setVitasta(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
-			setDharnugrah(+(val / 10.7639).toFixed(5));
+			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -272,7 +272,7 @@ export default function Length() {
 			setVittaa(+(val / 72900).toFixed(5));
 			setVitasta(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
-			setDharnugrah(+(val / 10.7639).toFixed(5));
+			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -289,7 +289,7 @@ export default function Length() {
 			setVittaa(+(val / 72900).toFixed(5));
 			setVitasta(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
-			setDharnugrah(+(val / 10.7639).toFixed(5));
+			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
@@ -306,7 +306,7 @@ export default function Length() {
 			setVittaa(+(val / 72900).toFixed(5));
 			setVitasta(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
-			setDharnugrah(+(val / 10.7639).toFixed(5));
+			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
 			setKilometer(+(val * 1).toFixed(5));
 			setMeter(+(val / 4).toFixed(5));
