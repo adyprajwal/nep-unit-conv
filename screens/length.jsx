@@ -9,7 +9,7 @@ export default function Length() {
 	const units = [
 		{ index: "1", label: "Yojan", value: "yojan" },
 		{ index: "2", label: "Kosh", value: "kosh" },
-		{ index: "3", label: "Danda", value: "danda" },
+		{ index: "3", label: "Danda/Dhanush", value: "danda" },
 		{ index: "4", label: "Haath", value: "haath" },
 		{ index: "5", label: "Vittaa", value: "vittaa" },
 		{ index: "6", label: "Vitasta", value: "vitasta" },
@@ -328,7 +328,7 @@ export default function Length() {
 		{ key: 7, label: "Inch", value: inch },
 		{ key: 8, label: "Yojan", value: yojan },
 		{ key: 9, label: "Kosh", value: kosh },
-		{ key: 10, label: "Danda", value: danda },
+		{ key: 10, label: "Danda/Dhanush", value: danda },
 		{ key: 11, label: "Haath", value: haath },
 		{ key: 12, label: "Vittaa", value: vittaa },
 		{ key: 13, label: "Vitasta", value: vitasta },

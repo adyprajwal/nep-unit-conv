@@ -7,131 +7,154 @@ import KeyboardSpacer from "react-native-keyboard-spacer";
 
 export default function Volume() {
 	const units = [
-		{ index: "0", label: "Ropani", value: "ropani" },
-		{ index: "1", label: "Aana", value: "aana" },
-		{ index: "2", label: "Paisa", value: "paisa" },
-		{ index: "3", label: "Daam", value: "daam" },
-		{ index: "4", label: "Bigha", value: "bigha" },
-		{ index: "5", label: "Kattha", value: "kattha" },
-		{ index: "6", label: "Dhur", value: "dhur" },
-		{ index: "7", label: "Square Meter", value: "sqmtr" },
-		{ index: "8", label: "Square Feet", value: "sqft" }
+		{ index: "1", label: "Muri", value: "muri" },
+		{ index: "2", label: "Pathi", value: "pathi" },
+		{ index: "3", label: "Kuruwa", value: "kuruwa" },
+		{ index: "4", label: "Mana", value: "mana" },
+		{ index: "5", label: "Muthi", value: "muthi" },
+		{ index: "6", label: "Cubic Meter", value: "cubicMeter" },
+		{ index: "7", label: "Liter", value: "liter" },
+		{ index: "8", label: "Milliliter", value: "milliliter" },
+		{ index: "9", label: "Cubic Foot", value: "cubicFoot" },
+		{ index: "10", label: "Cubic Inch", value: "cubicInch" }
 	];
 
-	const [ropani, setRopani] = useState("0");
-	const [aana, setAana] = useState("0");
-	const [paisa, setPaisa] = useState("0");
-	const [daam, setDaam] = useState("0");
-	const [bigha, setBigha] = useState("0");
-	const [kattha, setKattha] = useState("0");
-	const [dhur, setDhur] = useState("0");
-	const [sqmtr, setSqmtr] = useState("0");
-	const [sqft, setSqft] = useState("0");
+	const [muri, setMuri] = useState("0");
+	const [pathi, setPathi] = useState("0");
+	const [kuruwa, setKuruwa] = useState("0");
+	const [mana, setMana] = useState("0");
+	const [muthi, setMuthi] = useState("0");
+	const [cubicMeter, setCubicMeter] = useState("0");
+	const [liter, setLiter] = useState("0");
+	const [milliliter, setMilliliter] = useState("0");
+	const [cubicFoot, setCubicFoot] = useState("0");
+	const [cubicInch, setCubicInch] = useState("0");
 
 	const convert = (val, unit) => {
-		if (unit == "ropani") {
-			setRopani(+(val * 1).toFixed(5));
-			setAana(+(val * 16).toFixed(5));
-			setPaisa(+(val * 64).toFixed(5));
-			setDaam(+(val * 256).toFixed(5));
-			setBigha(+(val / 13.31264).toFixed(5));
-			setKattha(+(val * 1.50233).toFixed(5));
-			setDhur(+(val * 30.04664).toFixed(5));
-			setSqmtr(+(val * 508.72).toFixed(5));
-			setSqft(+(val * 5476).toFixed(5));
-		} else if (unit == "aana") {
-			setRopani(+(val / 16).toFixed(5));
-			setAana(+(val * 1).toFixed(5));
-			setPaisa(+(val * 4).toFixed(5));
-			setDaam(+(val * 16).toFixed(5));
-			setBigha(+(val / 213.0022).toFixed(5));
-			setKattha(+(val / 10.6501).toFixed(5));
-			setDhur(+(val * 1.87791).toFixed(5));
-			setSqmtr(+(val * 31.8).toFixed(5));
-			setSqft(+(val * 342.25).toFixed(5));
-		} else if (unit == "paisa") {
-			setRopani(+(val / 64).toFixed(5));
-			setAana(+(val / 4).toFixed(5));
-			setPaisa(+(val * 1).toFixed(5));
-			setDaam(+(val * 4).toFixed(5));
-			setBigha(+(val / 852.03366).toFixed(5));
-			setKattha(+(val / 42.60168).toFixed(5));
-			setDhur(+(val / 2.13008).toFixed(5));
-			setSqmtr(+(val * 85.56).toFixed(5));
-			setSqft(+(val * 7.95).toFixed(5));
-		} else if (unit == "daam") {
-			setRopani(+(val / 256).toFixed(5));
-			setAana(+(val / 16).toFixed(5));
-			setPaisa(+(val / 4).toFixed(5));
-			setDaam(+(val * 1).toFixed(5));
-			setBigha(+(val / 3408.13464).toFixed(5));
-			setKattha(+(val / 170.40673).toFixed(5));
-			setDhur(+(val / 8.52034).toFixed(5));
-			setSqmtr(+(val * 1.99).toFixed(5));
-			setSqft(+(val * 21.39).toFixed(5));
-		} else if (unit == "bigha") {
-			setRopani(+(val * 13.31264).toFixed(5));
-			setAana(+(val * 213.022).toFixed(5));
-			setPaisa(+(val * 852.03366).toFixed(5));
-			setDaam(+(val * 3408.13464).toFixed(5));
-			setBigha(+(val * 1).toFixed(5));
-			setKattha(+(val * 20).toFixed(5));
-			setDhur(+(val * 400).toFixed(5));
-			setSqmtr(+(val * 6772.63).toFixed(5));
-			setSqft(+(val * 72900).toFixed(5));
-		} else if (unit == "kattha") {
-			setRopani(+(val / 1.50233).toFixed(5));
-			setAana(+(val * 10.6501).toFixed(5));
-			setPaisa(+(val * 42.60168).toFixed(5));
-			setDaam(+(val * 170.40673).toFixed(5));
-			setBigha(+(val / 20).toFixed(5));
-			setKattha(+(val * 1).toFixed(5));
-			setDhur(+(val * 20).toFixed(5));
-			setSqmtr(+(val * 338.63).toFixed(5));
-			setSqft(+(val * 3645).toFixed(5));
-		} else if (unit == "dhur") {
-			setRopani(+(val / 30.04664).toFixed(5));
-			setAana(+(val / 1.87791).toFixed(5));
-			setPaisa(+(val * 2.13008).toFixed(5));
-			setDaam(+(val * 8.52034).toFixed(5));
-			setBigha(+(val / 400).toFixed(5));
-			setKattha(+(val / 20).toFixed(5));
-			setDhur(+(val * 1).toFixed(5));
-			setSqmtr(+(val * 16.93).toFixed(5));
-			setSqft(+(val * 182.25).toFixed(5));
-		} else if (unit == "sqmtr") {
-			setRopani(+(val / 508.72).toFixed(5));
-			setAana(+(val / 31.8).toFixed(5));
-			setPaisa(+(val / 7.95).toFixed(5));
-			setDaam(+(val / 1.99).toFixed(5));
-			setBigha(+(val / 6772.63).toFixed(5));
-			setKattha(+(val / 338.63).toFixed(5));
-			setDhur(+(val / 16.93).toFixed(5));
-			setSqmtr(+(val * 1).toFixed(5));
-			setSqft(+(val * 10.7639).toFixed(5));
-		} else if (unit == "sqft") {
-			setRopani(+(val / 5476).toFixed(5));
-			setAana(+(val / 342.25).toFixed(5));
-			setPaisa(+(val / 85.56).toFixed(5));
-			setDaam(+(val / 21.39).toFixed(5));
-			setBigha(+(val / 72900).toFixed(5));
-			setKattha(+(val / 3645).toFixed(5));
-			setDhur(+(val / 182.25).toFixed(5));
-			setSqmtr(+(val / 10.7639).toFixed(5));
-			setSqft(+(val * 1).toFixed(5));
+		if (unit == "muri") {
+			setMuri(+(val * 1).toFixed(5));
+			setPathi(+(val * 16).toFixed(5));
+			setKuruwa(+(val * 64).toFixed(5));
+			setMana(+(val * 256).toFixed(5));
+			setMuthi(+(val / 13.31264).toFixed(5));
+			setCubicMeter(+(val * 1.50233).toFixed(5));
+			setLiter(+(val * 30.04664).toFixed(5));
+			setMilliliter(+(val * 508.72).toFixed(5));
+			setCubicFoot(+(val * 5476).toFixed(5));
+			setCubicInch(+(val * 1).toFixed(5));
+		} else if (unit == "pathi") {
+			setMuri(+(val / 16).toFixed(5));
+			setPathi(+(val * 1).toFixed(5));
+			setKuruwa(+(val * 4).toFixed(5));
+			setMana(+(val * 16).toFixed(5));
+			setMuthi(+(val / 213.0022).toFixed(5));
+			setCubicMeter(+(val / 10.6501).toFixed(5));
+			setLiter(+(val * 1.87791).toFixed(5));
+			setMilliliter(+(val * 31.8).toFixed(5));
+			setCubicFoot(+(val * 342.25).toFixed(5));
+			setCubicInch(+(val * 1).toFixed(5));
+		} else if (unit == "kuruwa") {
+			setMuri(+(val / 64).toFixed(5));
+			setPathi(+(val / 4).toFixed(5));
+			setKuruwa(+(val * 1).toFixed(5));
+			setMana(+(val * 4).toFixed(5));
+			setMuthi(+(val / 852.03366).toFixed(5));
+			setCubicMeter(+(val / 42.60168).toFixed(5));
+			setLiter(+(val / 2.13008).toFixed(5));
+			setMilliliter(+(val * 85.56).toFixed(5));
+			setCubicFoot(+(val * 7.95).toFixed(5));
+			setCubicInch(+(val * 1).toFixed(5));
+		} else if (unit == "mana") {
+			setMuri(+(val / 256).toFixed(5));
+			setPathi(+(val / 16).toFixed(5));
+			setKuruwa(+(val / 4).toFixed(5));
+			setMana(+(val * 1).toFixed(5));
+			setMuthi(+(val / 3408.13464).toFixed(5));
+			setCubicMeter(+(val / 170.40673).toFixed(5));
+			setLiter(+(val / 8.52034).toFixed(5));
+			setMilliliter(+(val * 1.99).toFixed(5));
+			setCubicFoot(+(val * 21.39).toFixed(5));
+			setCubicInch(+(val * 1).toFixed(5));
+		} else if (unit == "muthi") {
+			setMuri(+(val * 13.31264).toFixed(5));
+			setPathi(+(val * 213.022).toFixed(5));
+			setKuruwa(+(val * 852.03366).toFixed(5));
+			setMana(+(val * 3408.13464).toFixed(5));
+			setMuthi(+(val * 1).toFixed(5));
+			setCubicMeter(+(val * 20).toFixed(5));
+			setLiter(+(val * 400).toFixed(5));
+			setMilliliter(+(val * 6772.63).toFixed(5));
+			setCubicFoot(+(val * 72900).toFixed(5));
+			setCubicInch(+(val * 1).toFixed(5));
+		} else if (unit == "cubicMeter") {
+			setMuri(+(val / 1.50233).toFixed(5));
+			setPathi(+(val * 10.6501).toFixed(5));
+			setKuruwa(+(val * 42.60168).toFixed(5));
+			setMana(+(val * 170.40673).toFixed(5));
+			setMuthi(+(val / 20).toFixed(5));
+			setCubicMeter(+(val * 1).toFixed(5));
+			setLiter(+(val * 20).toFixed(5));
+			setMilliliter(+(val * 338.63).toFixed(5));
+			setCubicFoot(+(val * 3645).toFixed(5));
+			setCubicInch(+(val * 1).toFixed(5));
+		} else if (unit == "liter") {
+			setMuri(+(val / 30.04664).toFixed(5));
+			setPathi(+(val / 1.87791).toFixed(5));
+			setKuruwa(+(val * 2.13008).toFixed(5));
+			setMana(+(val * 8.52034).toFixed(5));
+			setMuthi(+(val / 400).toFixed(5));
+			setCubicMeter(+(val / 20).toFixed(5));
+			setLiter(+(val * 1).toFixed(5));
+			setMilliliter(+(val * 16.93).toFixed(5));
+			setCubicFoot(+(val * 182.25).toFixed(5));
+			setCubicInch(+(val * 1).toFixed(5));
+		} else if (unit == "milliliter") {
+			setMuri(+(val / 508.72).toFixed(5));
+			setPathi(+(val / 31.8).toFixed(5));
+			setKuruwa(+(val / 7.95).toFixed(5));
+			setMana(+(val / 1.99).toFixed(5));
+			setMuthi(+(val / 6772.63).toFixed(5));
+			setCubicMeter(+(val / 338.63).toFixed(5));
+			setLiter(+(val / 16.93).toFixed(5));
+			setMilliliter(+(val * 1).toFixed(5));
+			setCubicFoot(+(val * 10.7639).toFixed(5));
+			setCubicInch(+(val * 1).toFixed(5));
+		} else if (unit == "cubicFoot") {
+			setMuri(+(val / 5476).toFixed(5));
+			setPathi(+(val / 342.25).toFixed(5));
+			setKuruwa(+(val / 85.56).toFixed(5));
+			setMana(+(val / 21.39).toFixed(5));
+			setMuthi(+(val / 72900).toFixed(5));
+			setCubicMeter(+(val / 3645).toFixed(5));
+			setLiter(+(val / 182.25).toFixed(5));
+			setMilliliter(+(val / 10.7639).toFixed(5));
+			setCubicFoot(+(val * 1).toFixed(5));
+			setCubicInch(+(val * 1).toFixed(5));
+		} else if (unit == "cubicInch") {
+			setMuri(+(val / 5476).toFixed(5));
+			setPathi(+(val / 342.25).toFixed(5));
+			setKuruwa(+(val / 85.56).toFixed(5));
+			setMana(+(val / 21.39).toFixed(5));
+			setMuthi(+(val / 72900).toFixed(5));
+			setCubicMeter(+(val / 3645).toFixed(5));
+			setLiter(+(val / 182.25).toFixed(5));
+			setMilliliter(+(val / 10.7639).toFixed(5));
+			setCubicFoot(+(val * 1).toFixed(5));
+			setCubicInch(+(val * 1).toFixed(5));
 		}
 	};
 
 	const results = [
-		{ key: 1, label: "Ropani", value: ropani },
-		{ key: 2, label: "Aana", value: aana },
-		{ key: 3, label: "Paisa", value: paisa },
-		{ key: 4, label: "Daam", value: daam },
-		{ key: 5, label: "Bigha", value: bigha },
-		{ key: 6, label: "Kattha", value: kattha },
-		{ key: 7, label: "Dhur", value: dhur },
-		{ key: 8, label: "Square Meter", value: sqmtr },
-		{ key: 9, label: "Square Feet", value: sqft }
+		{ key: 1, label: "Cubic Meter", value: cubicMeter },
+		{ key: 2, label: "Liter", value: liter },
+		{ key: 3, label: "Milliliter", value: milliliter },
+		{ key: 4, label: "Cubic Foot", value: cubicFoot },
+		{ key: 5, label: "Cubic Inch", value: cubicInch },
+		{ key: 6, label: "Muri", value: muri },
+		{ key: 7, label: "Pathi", value: pathi },
+		{ key: 8, label: "Kuruwa", value: kuruwa },
+		{ key: 9, label: "Mana", value: mana },
+		{ key: 10, label: "Muthi", value: muthi }
 	];
 
 	return (
