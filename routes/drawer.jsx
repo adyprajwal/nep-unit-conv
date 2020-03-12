@@ -1,7 +1,7 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import HomeStack from "./homeStack";
+import AreaStack from "./areaStack";
 import LengthStack from "./lengthStack";
 import VolumeStack from "./volumeStack";
 import WeightStack from "./weightStack";
@@ -14,7 +14,7 @@ export default function Navigator() {
 	return (
 		<NavigationContainer>
 			<Drawer.Navigator>
-				<Drawer.Screen name="Area" component={HomeStack} />
+				<Drawer.Screen name="Area" component={AreaStack} />
 				<Drawer.Screen name="Length" component={LengthStack} />
 				<Drawer.Screen name="Volume" component={VolumeStack} />
 				<Drawer.Screen name="Weight" component={WeightStack} />

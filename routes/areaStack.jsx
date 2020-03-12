@@ -1,14 +1,14 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import Home from "../screens/home";
+import Area from "../screens/area";
 import Header from "../components/shared/header";
 
 const Stack = createStackNavigator();
 
-export default function HomeStack() {
+export default function AreaStack() {
 	return (
 		<Stack.Navigator
-			initialRouteName="Home"
+			initialRouteName="Area"
 			screenOptions={{
 				headerStyle: {
 					backgroundColor: "#ff3526"
@@ -16,8 +16,8 @@ export default function HomeStack() {
 			}}
 		>
 			<Stack.Screen
-				name="Home"
-				component={Home}
+				name="Area"
+				component={Area}
 				options={({ navigation }) => {
 					return {
 						headerTitle: () => (
