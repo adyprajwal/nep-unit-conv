@@ -3,8 +3,8 @@ import { StyleSheet } from "react-native";
 export const globalStyles = StyleSheet.create({
 	container: {
 		flex: 1,
-		padding: 20,
-		backgroundColor: "#f5f3f0"
+		padding: 10,
+		backgroundColor: "#f0f0f0"
 	},
 	titleText: {
 		fontFamily: "exo2-bold"
@@ -33,16 +33,15 @@ export const globalStyles = StyleSheet.create({
 	//INPUT FIELD STYLES
 	inputCard: {
 		flexDirection: "row",
-		marginBottom: 20
+		marginBottom: 10
 	},
 	inputField: {
 		flex: 2,
-		padding: 5,
+		padding: 7,
 		fontFamily: "sans-serif-medium",
 		fontSize: 18,
-		borderRadius: 6,
-		elevation: 6,
-		borderRadius: 6,
+		borderRadius: 4,
+		elevation: 3,
 		backgroundColor: "#fff",
 		height: 50
 	},
@@ -50,16 +49,16 @@ export const globalStyles = StyleSheet.create({
 		flex: 1.7,
 		marginLeft: 5,
 		fontFamily: "exo2-regular",
-		borderRadius: 6,
-		elevation: 6,
+		borderRadius: 4,
+		elevation: 3,
 		backgroundColor: "#fff"
 	},
 
 	//RESULT BOX STYLES
 	resultBox: {
 		flex: 1,
-		borderRadius: 10,
-		elevation: 6,
+		borderRadius: 4,
+		elevation: 3,
 		backgroundColor: "#fff"
 	},
 	resultItem: {

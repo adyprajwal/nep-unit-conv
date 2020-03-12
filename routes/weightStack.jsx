@@ -11,7 +11,7 @@ export default function WeightStack() {
 			initialRouteName="Weight"
 			screenOptions={{
 				headerStyle: {
-					backgroundColor: "#ff6924"
+					backgroundColor: "#ff6d05"
 				}
 			}}
 		>
