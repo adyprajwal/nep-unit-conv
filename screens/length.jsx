@@ -14,7 +14,7 @@ export default function Length() {
 		{ index: "5", label: "Vittaa", value: "vittaa" },
 		{ index: "6", label: "Vitasta", value: "vitasta" },
 		{ index: "7", label: "Dhanurmushti", value: "dhanurmushti" },
-		{ index: "8", label: "Dhanurgrah", value: "dharnugrah" },
+		{ index: "8", label: "Dhanurgrah", value: "dhanurgrah" },
 		{ index: "9", label: "Angul", value: "angul" },
 		{ index: "10", label: "Kilometer", value: "kilometer" },
 		{ index: "11", label: "Meter", value: "meter" },
@@ -32,7 +32,7 @@ export default function Length() {
 	const [vittaa, setVittaa] = useState("0");
 	const [vitasta, setVitasta] = useState("0");
 	const [dhanurmushti, setDhanurmushti] = useState("0");
-	const [dharnugrah, setDhanurgrah] = useState("0");
+	const [dhanurgrah, setDhanurgrah] = useState("0");
 	const [angul, setAngul] = useState("0");
 	const [kilometer, setKilometer] = useState("0");
 	const [meter, setMeter] = useState("0");
@@ -162,7 +162,7 @@ export default function Length() {
 			setYard(+(val * 64).toFixed(5));
 			setFoot(+(val / 53.25056).toFixed(5));
 			setInch(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "dharnugrah") {
+		} else if (unit == "dhanurgrah") {
 			setYojan(+(val / 508.72).toFixed(5));
 			setKosh(+(val / 31.8).toFixed(5));
 			setDanda(+(val / 7.95).toFixed(5));
@@ -333,7 +333,7 @@ export default function Length() {
 		{ key: 12, label: "Vittaa", value: vittaa },
 		{ key: 13, label: "Vitasta", value: vitasta },
 		{ key: 14, label: "Dhanurmushti", value: dhanurmushti },
-		{ key: 15, label: "Dhanurgrah", value: dharnugrah },
+		{ key: 15, label: "Dhanurgrah", value: dhanurgrah },
 		{ key: 16, label: "Angul", value: angul }
 	];
 
