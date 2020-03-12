@@ -5,7 +5,7 @@ import InputCard from "../components/shared/inputCard";
 import ResultCard from "../components/shared/resultCard";
 import KeyboardSpacer from "react-native-keyboard-spacer";
 
-export default function Length() {
+export default function Weight() {
 	const units = [
 		{ index: "1", label: "Dharni", value: "dharni" },
 		{ index: "2", label: "Sher", value: "sher" },
