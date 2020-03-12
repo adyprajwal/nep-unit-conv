@@ -1,6 +1,6 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import Time from "../screens/length";
+import Time from "../screens/time";
 import Header from "../components/shared/header";
 
 const Stack = createStackNavigator();
