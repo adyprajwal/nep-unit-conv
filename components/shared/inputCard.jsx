@@ -7,7 +7,7 @@ import Selector from "./selector";
 export default function InputCard({ units, convert }) {
 	let values = units.map(unit => unit.value);
 	const [unit, setUnit] = useState(values[0]);
-	const [text, setText] = useState("Enter Values");
+	const [text, setText] = useState(0);
 
 	const handleTextChange = (text, { unit }) => {
 		setText(text);
