@@ -1,9 +1,9 @@
 import React from "react";
 import { StyleSheet, View, Text, TouchableOpacity } from "react-native";
 import { MaterialIcons } from "@expo/vector-icons";
-import { globalStyles } from "../styles/globalStyles";
+import { globalStyles } from "../../styles/globalStyles";
 
-export default function AboutHeader({ navigation, title }) {
+export default function SecondHeader({ navigation, title }) {
 	const goToPreviousScreen = () => {
 		navigation.goBack();
 	};
@@ -30,9 +30,9 @@ export default function AboutHeader({ navigation, title }) {
 
 const styles = StyleSheet.create({
 	headerText: {
-		color: "#000"
+		color: "#4f4f4f"
 	},
 	headerIcon: {
-		color: "#000"
+		color: "#383838"
 	}
 });

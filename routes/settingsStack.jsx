@@ -1,11 +1,11 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import About from "../screens/about";
+import Settings from "../screens/settings";
 import SecondHeader from "../components/shared/secHeader";
 
 const Stack = createStackNavigator();
 
-export default function AboutStack() {
+export default function SettingsStack() {
 	return (
 		<Stack.Navigator
 			screenOptions={{
@@ -15,13 +15,13 @@ export default function AboutStack() {
 			}}
 		>
 			<Stack.Screen
-				name="About"
-				component={About}
+				name="Settings"
+				component={Settings}
 				options={({ navigation }) => {
 					return {
 						headerTitle: () => (
 							<SecondHeader
-								title="About"
+								title="Settings"
 								navigation={navigation}
 							/>
 						)

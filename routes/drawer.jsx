@@ -7,18 +7,19 @@ import VolumeStack from "./volumeStack";
 import WeightStack from "./weightStack";
 import TimeStack from "./timeStack";
 import AboutStack from "./aboutStack";
+import SettingsStack from "./settingsStack";
 
 const Drawer = createDrawerNavigator();
-
 export default function Navigator() {
 	return (
 		<NavigationContainer>
-			<Drawer.Navigator>
+			<Drawer.Navigator initialRouteName="Area">
 				<Drawer.Screen name="Area" component={AreaStack} />
 				<Drawer.Screen name="Length" component={LengthStack} />
 				<Drawer.Screen name="Volume" component={VolumeStack} />
 				<Drawer.Screen name="Weight" component={WeightStack} />
 				<Drawer.Screen name="Time" component={TimeStack} />
+				<Drawer.Screen name="Settings" component={SettingsStack} />
 				<Drawer.Screen name="About" component={AboutStack} />
 			</Drawer.Navigator>
 		</NavigationContainer>
