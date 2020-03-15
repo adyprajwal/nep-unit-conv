@@ -30,9 +30,9 @@ export default function SecondHeader({ navigation, title }) {
 
 const styles = StyleSheet.create({
 	headerText: {
-		color: "#4f4f4f"
+		color: "#000"
 	},
 	headerIcon: {
-		color: "#383838"
+		color: "#424242"
 	}
 });
