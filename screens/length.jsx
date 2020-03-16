@@ -10,9 +10,9 @@ export default function Length() {
 		{ index: "1", label: "Yojan", value: "yojan" },
 		{ index: "2", label: "Kosh", value: "kosh" },
 		{ index: "3", label: "Danda/Dhanush", value: "danda" },
-		{ index: "4", label: "Haath", value: "haath" },
-		{ index: "5", label: "Vittaa", value: "vittaa" },
-		{ index: "6", label: "Vitasta", value: "vitasta" },
+		{ index: "4", label: "Gaj", value: "gaj" },
+		{ index: "5", label: "Haath", value: "gaj" },
+		{ index: "6", label: "Bitta", value: "bitta" },
 		{ index: "7", label: "Dhanurmushti", value: "dhanurmushti" },
 		{ index: "8", label: "Dhanurgrah", value: "dhanurgrah" },
 		{ index: "9", label: "Angul", value: "angul" },
@@ -29,8 +29,8 @@ export default function Length() {
 	const [kosh, setKosh] = useState("0");
 	const [danda, setDanda] = useState("0");
 	const [haath, setHaath] = useState("0");
-	const [vittaa, setVittaa] = useState("0");
-	const [vitasta, setVitasta] = useState("0");
+	const [bitta, setBitta] = useState("0");
+	const [gaj, setGaj] = useState("0");
 	const [dhanurmushti, setDhanurmushti] = useState("0");
 	const [dhanurgrah, setDhanurgrah] = useState("0");
 	const [angul, setAngul] = useState("0");
@@ -48,8 +48,8 @@ export default function Length() {
 			setKosh(+(val * 16).toFixed(5));
 			setDanda(+(val * 64).toFixed(5));
 			setHaath(+(val * 256).toFixed(5));
-			setVittaa(+(val / 13.31264).toFixed(5));
-			setVitasta(+(val * 1.50233).toFixed(5));
+			setBitta(+(val / 13.31264).toFixed(5));
+			setGaj(+(val * 1.50233).toFixed(5));
 			setDhanurmushti(+(val * 30.04664).toFixed(5));
 			setDhanurgrah(+(val * 508.72).toFixed(5));
 			setAngul(+(val * 5476).toFixed(5));
@@ -65,8 +65,8 @@ export default function Length() {
 			setKosh(+(val * 1).toFixed(5));
 			setDanda(+(val * 4).toFixed(5));
 			setHaath(+(val * 16).toFixed(5));
-			setVittaa(+(val / 213.0022).toFixed(5));
-			setVitasta(+(val / 10.6501).toFixed(5));
+			setBitta(+(val / 213.0022).toFixed(5));
+			setGaj(+(val / 10.6501).toFixed(5));
 			setDhanurmushti(+(val * 1.87791).toFixed(5));
 			setDhanurgrah(+(val * 31.8).toFixed(5));
 			setAngul(+(val * 342.25).toFixed(5));
@@ -82,8 +82,8 @@ export default function Length() {
 			setKosh(+(val / 4).toFixed(5));
 			setDanda(+(val * 1).toFixed(5));
 			setHaath(+(val * 4).toFixed(5));
-			setVittaa(+(val / 852.03366).toFixed(5));
-			setVitasta(+(val / 42.60168).toFixed(5));
+			setBitta(+(val / 852.03366).toFixed(5));
+			setGaj(+(val / 42.60168).toFixed(5));
 			setDhanurmushti(+(val / 2.13008).toFixed(5));
 			setDhanurgrah(+(val * 85.56).toFixed(5));
 			setAngul(+(val * 7.95).toFixed(5));
@@ -99,8 +99,8 @@ export default function Length() {
 			setKosh(+(val / 16).toFixed(5));
 			setDanda(+(val / 4).toFixed(5));
 			setHaath(+(val * 1).toFixed(5));
-			setVittaa(+(val / 3408.13464).toFixed(5));
-			setVitasta(+(val / 170.40673).toFixed(5));
+			setBitta(+(val / 3408.13464).toFixed(5));
+			setGaj(+(val / 170.40673).toFixed(5));
 			setDhanurmushti(+(val / 8.52034).toFixed(5));
 			setDhanurgrah(+(val * 1.99).toFixed(5));
 			setAngul(+(val * 21.39).toFixed(5));
@@ -111,13 +111,13 @@ export default function Length() {
 			setYard(+(val * 64).toFixed(5));
 			setFoot(+(val / 53.25056).toFixed(5));
 			setInch(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "vittaa") {
+		} else if (unit == "bitta") {
 			setYojan(+(val * 13.31264).toFixed(5));
 			setKosh(+(val * 213.022).toFixed(5));
 			setDanda(+(val * 852.03366).toFixed(5));
 			setHaath(+(val * 3408.13464).toFixed(5));
-			setVittaa(+(val * 1).toFixed(5));
-			setVitasta(+(val * 20).toFixed(5));
+			setBitta(+(val * 1).toFixed(5));
+			setGaj(+(val * 20).toFixed(5));
 			setDhanurmushti(+(val * 400).toFixed(5));
 			setDhanurgrah(+(val * 6772.63).toFixed(5));
 			setAngul(+(val * 72900).toFixed(5));
@@ -128,13 +128,13 @@ export default function Length() {
 			setYard(+(val * 64).toFixed(5));
 			setFoot(+(val / 53.25056).toFixed(5));
 			setInch(+(val * 0.3755825).toFixed(5));
-		} else if (unit == "vitasta") {
+		} else if (unit == "gaj") {
 			setYojan(+(val / 1.50233).toFixed(5));
 			setKosh(+(val * 10.6501).toFixed(5));
 			setDanda(+(val * 42.60168).toFixed(5));
 			setHaath(+(val * 170.40673).toFixed(5));
-			setVittaa(+(val / 20).toFixed(5));
-			setVitasta(+(val * 1).toFixed(5));
+			setBitta(+(val / 20).toFixed(5));
+			setGaj(+(val * 1).toFixed(5));
 			setDhanurmushti(+(val * 20).toFixed(5));
 			setDhanurgrah(+(val * 338.63).toFixed(5));
 			setAngul(+(val * 3645).toFixed(5));
@@ -150,8 +150,8 @@ export default function Length() {
 			setKosh(+(val / 1.87791).toFixed(5));
 			setDanda(+(val * 2.13008).toFixed(5));
 			setHaath(+(val * 8.52034).toFixed(5));
-			setVittaa(+(val / 400).toFixed(5));
-			setVitasta(+(val / 20).toFixed(5));
+			setBitta(+(val / 400).toFixed(5));
+			setGaj(+(val / 20).toFixed(5));
 			setDhanurmushti(+(val * 1).toFixed(5));
 			setDhanurgrah(+(val * 16.93).toFixed(5));
 			setAngul(+(val * 182.25).toFixed(5));
@@ -167,8 +167,8 @@ export default function Length() {
 			setKosh(+(val / 31.8).toFixed(5));
 			setDanda(+(val / 7.95).toFixed(5));
 			setHaath(+(val / 1.99).toFixed(5));
-			setVittaa(+(val / 6772.63).toFixed(5));
-			setVitasta(+(val / 338.63).toFixed(5));
+			setBitta(+(val / 6772.63).toFixed(5));
+			setGaj(+(val / 338.63).toFixed(5));
 			setDhanurmushti(+(val / 16.93).toFixed(5));
 			setDhanurgrah(+(val * 1).toFixed(5));
 			setAngul(+(val * 10.7639).toFixed(5));
@@ -184,8 +184,8 @@ export default function Length() {
 			setKosh(+(val / 342.25).toFixed(5));
 			setDanda(+(val / 85.56).toFixed(5));
 			setHaath(+(val / 21.39).toFixed(5));
-			setVittaa(+(val / 72900).toFixed(5));
-			setVitasta(+(val / 3645).toFixed(5));
+			setBitta(+(val / 72900).toFixed(5));
+			setGaj(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
 			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
@@ -201,8 +201,8 @@ export default function Length() {
 			setKosh(+(val / 342.25).toFixed(5));
 			setDanda(+(val / 85.56).toFixed(5));
 			setHaath(+(val / 21.39).toFixed(5));
-			setVittaa(+(val / 72900).toFixed(5));
-			setVitasta(+(val / 3645).toFixed(5));
+			setBitta(+(val / 72900).toFixed(5));
+			setGaj(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
 			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
@@ -218,8 +218,8 @@ export default function Length() {
 			setKosh(+(val / 342.25).toFixed(5));
 			setDanda(+(val / 85.56).toFixed(5));
 			setHaath(+(val / 21.39).toFixed(5));
-			setVittaa(+(val / 72900).toFixed(5));
-			setVitasta(+(val / 3645).toFixed(5));
+			setBitta(+(val / 72900).toFixed(5));
+			setGaj(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
 			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
@@ -235,8 +235,8 @@ export default function Length() {
 			setKosh(+(val / 342.25).toFixed(5));
 			setDanda(+(val / 85.56).toFixed(5));
 			setHaath(+(val / 21.39).toFixed(5));
-			setVittaa(+(val / 72900).toFixed(5));
-			setVitasta(+(val / 3645).toFixed(5));
+			setBitta(+(val / 72900).toFixed(5));
+			setGaj(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
 			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
@@ -252,8 +252,8 @@ export default function Length() {
 			setKosh(+(val / 342.25).toFixed(5));
 			setDanda(+(val / 85.56).toFixed(5));
 			setHaath(+(val / 21.39).toFixed(5));
-			setVittaa(+(val / 72900).toFixed(5));
-			setVitasta(+(val / 3645).toFixed(5));
+			setBitta(+(val / 72900).toFixed(5));
+			setGaj(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
 			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
@@ -269,8 +269,8 @@ export default function Length() {
 			setKosh(+(val / 342.25).toFixed(5));
 			setDanda(+(val / 85.56).toFixed(5));
 			setHaath(+(val / 21.39).toFixed(5));
-			setVittaa(+(val / 72900).toFixed(5));
-			setVitasta(+(val / 3645).toFixed(5));
+			setBitta(+(val / 72900).toFixed(5));
+			setGaj(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
 			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
@@ -286,8 +286,8 @@ export default function Length() {
 			setKosh(+(val / 342.25).toFixed(5));
 			setDanda(+(val / 85.56).toFixed(5));
 			setHaath(+(val / 21.39).toFixed(5));
-			setVittaa(+(val / 72900).toFixed(5));
-			setVitasta(+(val / 3645).toFixed(5));
+			setBitta(+(val / 72900).toFixed(5));
+			setGaj(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
 			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
@@ -303,8 +303,8 @@ export default function Length() {
 			setKosh(+(val / 342.25).toFixed(5));
 			setDanda(+(val / 85.56).toFixed(5));
 			setHaath(+(val / 21.39).toFixed(5));
-			setVittaa(+(val / 72900).toFixed(5));
-			setVitasta(+(val / 3645).toFixed(5));
+			setBitta(+(val / 72900).toFixed(5));
+			setGaj(+(val / 3645).toFixed(5));
 			setDhanurmushti(+(val / 182.25).toFixed(5));
 			setDhanurgrah(+(val / 10.7639).toFixed(5));
 			setAngul(+(val * 1).toFixed(5));
@@ -329,9 +329,9 @@ export default function Length() {
 		{ key: 8, label: "Yojan", value: yojan },
 		{ key: 9, label: "Kosh", value: kosh },
 		{ key: 10, label: "Danda/Dhanush", value: danda },
-		{ key: 11, label: "Haath", value: haath },
-		{ key: 12, label: "Vittaa", value: vittaa },
-		{ key: 13, label: "Vitasta", value: vitasta },
+		{ key: 11, label: "Gaj", value: gaj },
+		{ key: 12, label: "Haath", value: haath },
+		{ key: 13, label: "Bitta", value: bitta },
 		{ key: 14, label: "Dhanurmushti", value: dhanurmushti },
 		{ key: 15, label: "Dhanurgrah", value: dhanurgrah },
 		{ key: 16, label: "Angul", value: angul }
