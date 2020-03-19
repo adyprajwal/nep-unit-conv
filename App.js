@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import * as Font from "expo-font";
-import { StyleSheet, Text, View } from "react-native";
 import { AppLoading } from "expo";
-import Navigator from "./routes/drawer";
+import Navigator from "./routes/navigator";
 
 const getFonts = () => {
 	return Font.loadAsync({

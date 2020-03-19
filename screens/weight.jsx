@@ -45,7 +45,7 @@ export default function Weight() {
 	const nums = units.map(item => item.num);
 
 	const convert = (val, unit) => {
-		for (i = 0; i < 3; i++) {
+		for (let i = 0; i < 13; i++) {
 			if (unit == values[i]) {
 				setDharni(+(val * (nums[0] / nums[i])).toFixed(5));
 				setSher(+(val * (nums[1] / nums[i])).toFixed(5));
