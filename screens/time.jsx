@@ -66,21 +66,21 @@ export default function Time() {
 	};
 
 	const results = [
-		{ key: 0, label: "Millisecond", value: millisec },
-		{ key: 1, label: "Second", value: second },
-		{ key: 2, label: "Minute", value: minute },
-		{ key: 3, label: "Hour", value: hour },
-		{ key: 4, label: "Day", value: day },
-		{ key: 5, label: "Week", value: week },
-		{ key: 6, label: "Month", value: month },
-		{ key: 7, label: "Year", value: year },
-		{ key: 8, label: "Decade", value: decade },
-		{ key: 9, label: "Century", value: century },
-		{ key: 10, label: "Muhrat", value: muhrat },
-		{ key: 11, label: "Ghadi", value: ghadi },
-		{ key: 12, label: "Pala", value: pala },
-		{ key: 13, label: "Vipala", value: vipala },
-		{ key: 14, label: "Nimesh", value: nimesh }
+		{ key: "0", label: "Millisecond", value: millisec },
+		{ key: "1", label: "Second", value: second },
+		{ key: "2", label: "Minute", value: minute },
+		{ key: "3", label: "Hour", value: hour },
+		{ key: "4", label: "Day", value: day },
+		{ key: "5", label: "Week", value: week },
+		{ key: "6", label: "Month", value: month },
+		{ key: "7", label: "Year", value: year },
+		{ key: "8", label: "Decade", value: decade },
+		{ key: "9", label: "Century", value: century },
+		{ key: "10", label: "Muhrat", value: muhrat },
+		{ key: "11", label: "Ghadi", value: ghadi },
+		{ key: "12", label: "Pala", value: pala },
+		{ key: "13", label: "Vipala", value: vipala },
+		{ key: "14", label: "Nimesh", value: nimesh }
 	];
 
 	return (

@@ -32,11 +32,11 @@ export default function Area() {
 	const [sqmtr, setSqmtr] = useState("0");
 	const [sqft, setSqft] = useState("0");
 
-	const nums = units.map(item => item.num);
 	const values = units.map(item => item.value);
+	const nums = units.map(item => item.num);
 
 	const convert = (val, unit) => {
-		for (let i = 0; i < 12; i++) {
+		for (let i = 0; i < 11; i++) {
 			if (unit == values[i]) {
 				setKhetmuri(+(val * (nums[0] / nums[i])).toFixed(5));
 				setMatomuri(+(val * (nums[1] / nums[i])).toFixed(5));
@@ -54,17 +54,17 @@ export default function Area() {
 	};
 
 	let results = [
-		{ key: 0, label: "Square Meter", value: sqmtr },
-		{ key: 1, label: "Square Feet", value: sqft },
-		{ key: 2, label: "Khetmuri", value: khetmuri },
-		{ key: 3, label: "Matomuri", value: matomuri },
-		{ key: 4, label: "Ropani", value: ropani },
-		{ key: 5, label: "Aana", value: aana },
-		{ key: 6, label: "Paisa", value: paisa },
-		{ key: 7, label: "Daam", value: daam },
-		{ key: 8, label: "Bigha", value: bigha },
-		{ key: 9, label: "Kattha", value: kattha },
-		{ key: 10, label: "Dhur", value: dhur }
+		{ key: "0", label: "Square Meter", value: sqmtr },
+		{ key: "1", label: "Square Feet", value: sqft },
+		{ key: "2", label: "Khetmuri", value: khetmuri },
+		{ key: "3", label: "Matomuri", value: matomuri },
+		{ key: "4", label: "Ropani", value: ropani },
+		{ key: "5", label: "Aana", value: aana },
+		{ key: "6", label: "Paisa", value: paisa },
+		{ key: "7", label: "Daam", value: daam },
+		{ key: "8", label: "Bigha", value: bigha },
+		{ key: "9", label: "Kattha", value: kattha },
+		{ key: "10", label: "Dhur", value: dhur }
 	];
 
 	return (
