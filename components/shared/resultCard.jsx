@@ -19,7 +19,7 @@ export default function ResultCard({ results }) {
 						</View>
 					</TouchableNativeFeedback>
 				)}
-				keyExtractor={item => item.key.toString()}
+				keyExtractor={item => item.key}
 			/>
 		</View>
 	);

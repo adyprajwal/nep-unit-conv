@@ -65,19 +65,19 @@ export default function Weight() {
 	};
 
 	const results = [
-		{ key: 0, label: "Metric Ton", value: metricTon },
-		{ key: 1, label: "Kilogram", value: kilogram },
-		{ key: 2, label: "Gram", value: gram },
-		{ key: 3, label: "Milligram", value: milligram },
-		{ key: 4, label: "Pound", value: pound },
-		{ key: 5, label: "Ounce", value: ounce },
-		{ key: 6, label: "Dharni", value: dharni },
-		{ key: 7, label: "Sher", value: sher },
-		{ key: 8, label: "Pau", value: pau },
-		{ key: 9, label: "Pau (Ktm)", value: pauktm },
-		{ key: 10, label: "Chatak", value: chatak },
-		{ key: 11, label: "Tola", value: tola },
-		{ key: 12, label: "Lal", value: lal }
+		{ key: "0", label: "Metric Ton", value: metricTon },
+		{ key: "1", label: "Kilogram", value: kilogram },
+		{ key: "2", label: "Gram", value: gram },
+		{ key: "3", label: "Milligram", value: milligram },
+		{ key: "4", label: "Pound", value: pound },
+		{ key: "5", label: "Ounce", value: ounce },
+		{ key: "6", label: "Dharni", value: dharni },
+		{ key: "7", label: "Sher", value: sher },
+		{ key: "8", label: "Pau", value: pau },
+		{ key: "9", label: "Pau (Ktm)", value: pauktm },
+		{ key: "10", label: "Chatak", value: chatak },
+		{ key: "11", label: "Tola", value: tola },
+		{ key: "12", label: "Lal", value: lal }
 	];
 
 	return (

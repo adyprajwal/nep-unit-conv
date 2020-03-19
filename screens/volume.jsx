@@ -61,16 +61,16 @@ export default function Volume() {
 	};
 
 	const results = [
-		{ key: 0, label: "Cubic Meter", value: cubicMeter },
-		{ key: 1, label: "Liter", value: liter },
-		{ key: 2, label: "Milliliter", value: milliliter },
-		{ key: 3, label: "Cubic Foot", value: cubicFoot },
-		{ key: 4, label: "Cubic Inch", value: cubicInch },
-		{ key: 5, label: "Muri", value: muri },
-		{ key: 6, label: "Pathi", value: pathi },
-		{ key: 7, label: "Kuruwa", value: kuruwa },
-		{ key: 8, label: "Mana", value: mana },
-		{ key: 9, label: "Muthi", value: muthi }
+		{ key: "0", label: "Cubic Meter", value: cubicMeter },
+		{ key: "1", label: "Liter", value: liter },
+		{ key: "2", label: "Milliliter", value: milliliter },
+		{ key: "3", label: "Cubic Foot", value: cubicFoot },
+		{ key: "4", label: "Cubic Inch", value: cubicInch },
+		{ key: "5", label: "Muri", value: muri },
+		{ key: "6", label: "Pathi", value: pathi },
+		{ key: "7", label: "Kuruwa", value: kuruwa },
+		{ key: "8", label: "Mana", value: mana },
+		{ key: "9", label: "Muthi", value: muthi }
 	];
 
 	return (

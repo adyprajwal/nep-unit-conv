@@ -79,22 +79,22 @@ export default function Length() {
 	};
 
 	const results = [
-		{ key: 0, label: "Kilometer", value: kilometer },
-		{ key: 1, label: "Meter", value: meter },
-		{ key: 2, label: "Centimeter", value: centimeter },
-		{ key: 3, label: "Mile", value: mile },
-		{ key: 4, label: "Yard", value: yard },
-		{ key: 5, label: "Foot", value: foot },
-		{ key: 6, label: "Inch", value: inch },
-		{ key: 7, label: "Yojan", value: yojan },
-		{ key: 8, label: "Kosh", value: kosh },
-		{ key: 9, label: "Danda/Dhanush", value: danda },
-		{ key: 10, label: "Gaj", value: gaj },
-		{ key: 11, label: "Haath", value: haath },
-		{ key: 12, label: "Bitta", value: bitta },
-		{ key: 13, label: "Dhanurmushti", value: dhanurmushti },
-		{ key: 14, label: "Dhanurgrah", value: dhanurgrah },
-		{ key: 15, label: "Angul", value: angul }
+		{ key: "0", label: "Kilometer", value: kilometer },
+		{ key: "1", label: "Meter", value: meter },
+		{ key: "2", label: "Centimeter", value: centimeter },
+		{ key: "3", label: "Mile", value: mile },
+		{ key: "4", label: "Yard", value: yard },
+		{ key: "5", label: "Foot", value: foot },
+		{ key: "6", label: "Inch", value: inch },
+		{ key: "7", label: "Yojan", value: yojan },
+		{ key: "8", label: "Kosh", value: kosh },
+		{ key: "9", label: "Danda/Dhanush", value: danda },
+		{ key: "10", label: "Gaj", value: gaj },
+		{ key: "11", label: "Haath", value: haath },
+		{ key: "12", label: "Bitta", value: bitta },
+		{ key: "13", label: "Dhanurmushti", value: dhanurmushti },
+		{ key: "14", label: "Dhanurgrah", value: dhanurgrah },
+		{ key: "15", label: "Angul", value: angul }
 	];
 
 	return (
