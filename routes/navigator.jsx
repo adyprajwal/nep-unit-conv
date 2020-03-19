@@ -17,9 +17,7 @@ export default function Navigator() {
 			<Drawer.Navigator
 				initialRouteName="Area"
 				drawerStyle={{ backgroundColor: "#e3e1e1" }}
-				drawerContent={props => (
-					<CustomDrawerContent navigation={navigation} {...props} />
-				)}
+				drawerContent={props => <CustomDrawerContent {...props} />}
 			>
 				<Drawer.Screen name="Area" component={AreaStack} />
 				<Drawer.Screen name="Length" component={LengthStack} />

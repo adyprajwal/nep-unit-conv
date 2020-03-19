@@ -11,7 +11,7 @@ export default function TimeStack() {
 			initialRouteName="Time"
 			screenOptions={{
 				headerStyle: {
-					backgroundColor: "#52de60"
+					backgroundColor: "#28c93e"
 				}
 			}}
 		>
