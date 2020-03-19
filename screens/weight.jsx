@@ -14,14 +14,14 @@ export default function Weight() {
 		{ index: "4", label: "Chatak", value: "chatak", num: 1 / 0.05831 },
 		{ index: "5", label: "Tola", value: "tola", num: 1 / 0.01166 },
 		{ index: "6", label: "Lal", value: "lal", num: 1 / 0.0001166 },
-		{ index: "7", label: "Metric Ton", value: "metricTon", num: 1000 },
+		{ index: "7", label: "Metric Ton", value: "metricTon", num: 1 / 1000 },
 		{ index: "8", label: "Kilogram", value: "kilogram", num: 1 },
-		{ index: "9", label: "Gram", value: "gram", num: 1 / 1000 },
+		{ index: "9", label: "Gram", value: "gram", num: 1000 },
 		{
 			index: "10",
 			label: "Milligram",
 			value: "milligram",
-			num: 1 / 1000000
+			num: 1000000
 		},
 		{ index: "11", label: "Pound", value: "pound", num: 2.2046225 },
 		{ index: "12", label: "Ounce", value: "ounce", num: 35.27396 }
@@ -47,18 +47,18 @@ export default function Weight() {
 	const convert = (val, unit) => {
 		for (let i = 0; i < 13; i++) {
 			if (unit == values[i]) {
-				setDharni(+(val * (nums[0] / nums[i])).toFixed(5));
-				setSher(+(val * (nums[1] / nums[i])).toFixed(5));
-				setPau(+(val * (nums[2] / nums[i])).toFixed(5));
+				setDharni(+(val * (nums[0] / nums[i])).toFixed(7));
+				setSher(+(val * (nums[1] / nums[i])).toFixed(7));
+				setPau(+(val * (nums[2] / nums[i])).toFixed(7));
 				setPauktm(+(val * (nums[3] / nums[i])).toFixed(5));
 				setChatak(+(val * (nums[4] / nums[i])).toFixed(5));
 				setTola(+(val * (nums[5] / nums[i])).toFixed(5));
 				setLal(+(val * (nums[6] / nums[i])).toFixed(5));
-				setMetricTon(+(val * (nums[7] / nums[i])).toFixed(5));
-				setKilogram(+(val * (nums[8] / nums[i])).toFixed(5));
+				setMetricTon(+(val * (nums[7] / nums[i])).toFixed(9));
+				setKilogram(+(val * (nums[8] / nums[i])).toFixed(7));
 				setGram(+(val * (nums[9] / nums[i])).toFixed(5));
-				setMilligram(+(val * (nums[10] / nums[i])).toFixed(5));
-				setPound(+(val * (nums[11] / nums[i])).toFixed(5));
+				setMilligram(+(val * (nums[10] / nums[i])).toFixed(7));
+				setPound(+(val * (nums[11] / nums[i])).toFixed(7));
 				setOunce(+(val * (nums[12] / nums[i])).toFixed(5));
 			}
 		}
