@@ -8,7 +8,7 @@ import KeyboardSpacer from "react-native-keyboard-spacer";
 export default function Weight() {
 	const units = [
 		{ index: "0", label: "Dharni", value: "dharni", num: 1 / 2.3934 },
-		{ index: "1", label: "Sher", value: "sher", num: 1 / 0.9931 },
+		{ index: "1", label: "Sher", value: "sher", num: 1 / 0.9331 },
 		{ index: "2", label: "Pau", value: "pau", num: 4 },
 		{ index: "3", label: "Pau (Ktm)", value: "pauktm", num: 5 },
 		{ index: "4", label: "Chatak", value: "chatak", num: 1 / 0.05831 },
