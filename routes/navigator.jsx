@@ -22,8 +22,9 @@ export default function Navigator() {
 		<NavigationContainer>
 			<Drawer.Navigator
 				initialRouteName="Area"
-				drawerStyle={{ backgroundColor: "#e3e1e1" }}
+				drawerStyle={{ backgroundColor: "#e3e1e1", flex: 1 }}
 				drawerContent={props => <CustomDrawerContent {...props} />}
+				contentContainerStyle={{ flex: 1 }}
 			>
 				<Drawer.Screen
 					name="Area"
@@ -98,7 +99,7 @@ export default function Navigator() {
 						)
 					}}
 				/>
-				<Drawer.Screen
+				{/* <Drawer.Screen
 					name="Settings"
 					component={SettingsStack}
 					options={{
@@ -114,7 +115,7 @@ export default function Navigator() {
 							/>
 						)
 					}}
-				/>
+				/> */}
 				<Drawer.Screen
 					name="About"
 					component={AboutStack}
