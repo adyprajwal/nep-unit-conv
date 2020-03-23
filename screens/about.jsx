@@ -7,7 +7,7 @@ export default function About() {
 		<View style={globalStyles.container}>
 			<Text style={styles.titleText}>Nepali Unit Converter</Text>
 			<Text style={styles.versionText}> Version: 1.0</Text>
-			<Text>
+			<Text style={styles.descriptionText}>
 				This app intends to simplify the conversion of traditional
 				Nepali Measurement Units into well known metric as well as
 				imperial system.
@@ -17,10 +17,19 @@ export default function About() {
 }
 const styles = StyleSheet.create({
 	titleText: {
-		fontWeight: "bold",
-		fontSize: 18
+		fontFamily: "exo2-bold",
+		fontSize: 19,
+		alignSelf: "center"
 	},
 	versionText: {
-		fontSize: 18
+		fontSize: 15,
+		alignSelf: "center",
+		fontFamily: "exo2-bold"
+	},
+	descriptionText: {
+		fontFamily: "exo2-regular",
+		marginTop: 30,
+		paddingHorizontal: 15,
+		textAlign: "justify"
 	}
 });
