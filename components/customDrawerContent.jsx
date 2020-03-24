@@ -12,18 +12,15 @@ export default function CustomDrawerContent(props) {
 			<View style={styles.drawerHeader}>
 				<Image
 					style={styles.drawerImage}
-					source={require("../assets/icon.jpg")}
+					source={require("../assets/icon.png")}
 				/>
 				<Text style={styles.drawerHeaderTitle}>
 					Nepali Unit Converter
 				</Text>
 			</View>
-
-			{/* <DrawerItem
-				label="Help"
-				onPress={() => props.navigation.navigate("Length")}
-			/> */}
-			<DrawerItemList {...props} />
+			<View style={{ flex: 6 }}>
+				<DrawerItemList {...props} />
+			</View>
 		</DrawerContentScrollView>
 	);
 }
@@ -32,11 +29,9 @@ const styles = StyleSheet.create({
 		flex: 1
 	},
 	drawerHeader: {
-		height: 200,
-		// backgroundColor: "#e84f54",
+		flex: 2,
 		backgroundColor: "#e3e1e1",
-		justifyContent: "flex-end",
-		marginTop: -50
+		justifyContent: "flex-end"
 	},
 	drawerHeaderTitle: {
 		height: 30,
