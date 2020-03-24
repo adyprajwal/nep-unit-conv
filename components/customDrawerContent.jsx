@@ -12,7 +12,7 @@ export default function CustomDrawerContent(props) {
 			<View style={styles.drawerHeader}>
 				<Image
 					style={styles.drawerImage}
-					source={require("../assets/icon.png")}
+					source={require("../assets/icon2.png")}
 				/>
 				<Text style={styles.drawerHeaderTitle}>
 					Nepali Unit Converter
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
 	},
 	drawerHeaderTitle: {
 		height: 30,
-		color: "#000",
+		color: "#003893",
 		marginVertical: 10,
 		marginLeft: 10,
 		fontFamily: "exo2-bold",
@@ -45,6 +45,6 @@ const styles = StyleSheet.create({
 		height: 80,
 		width: 80,
 		marginLeft: 10,
-		borderRadius: 50
+		borderRadius: 10
 	}
 });
