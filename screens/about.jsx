@@ -12,6 +12,12 @@ export default function About() {
 				Nepali Measurement Units into well known metric as well as
 				imperial system.
 			</Text>
+			<View style={styles.credits}>
+				<Text style={styles.creditsText}>Powered By</Text>
+				<Text style={[styles.creditsText, { fontWeight: "bold" }]}>
+					© Magic Cube Engineering 2020
+				</Text>
+			</View>
 		</View>
 	);
 }
@@ -31,5 +37,11 @@ const styles = StyleSheet.create({
 		marginTop: 30,
 		paddingHorizontal: 15,
 		textAlign: "justify"
+	},
+	credits: {
+		marginTop: 50
+	},
+	creditsText: {
+		alignSelf: "center"
 	}
 });
