@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "Nepali Unit Converter",
     "slug": "nep-unit-conv",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -23,8 +23,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.unitconverter.nepaliunitconverter",
+      "versionCode": 1
+    },
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "This app intends to simplify the conversion of traditional Nepali Measurement Units into well known metric as well as imperial system."
   }
 }
