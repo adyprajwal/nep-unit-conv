@@ -1,0 +1,400 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from [:expo-permissions] C:\Users\prajwal\Desktop\eject\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-screens] C:\Users\prajwal\Desktop\eject\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-react-native-adapter] C:\Users\prajwal\Desktop\eject\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_masked-view] C:\Users\prajwal\Desktop\eject\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] C:\Users\prajwal\Desktop\eject\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] C:\Users\prajwal\Desktop\eject\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] C:\Users\prajwal\Desktop\eject\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\27d2709d8a8d156cae707c8409d367bb\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\63934194741790c1f382e78e86b7bb77\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\179ca2bc8b603a8dac1fb1e07fa5fd7c\AndroidManifest.xml:17:1-24:12
+MERGED from [:expo-app-loader-provider] C:\Users\prajwal\Desktop\eject\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] C:\Users\prajwal\Desktop\eject\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-30:12
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] C:\Users\prajwal\Desktop\eject\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\9702e357d8d22d401dd2645a4a5dab4c\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\19500d6c3bd9c38b2b547e23c3b55f33\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\de430fa6d2252ec5ac5e3ae37119ed5f\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\a3160c1c474fe4c59d7afe8d1797b5ec\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\d31c67ced01cc1a7094c30c3c1c41361\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\3c2fb5b04a3265c3b1dd06b77e5711be\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\8207bddb7c328c9a9b0f97ee7e0d7ee1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\690cbda236dca5a0a209a46b70d9f5fa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\6fc0b613fef80771ddac9409bc44adcc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\e1641dfbadf28204d70c11fdf0fdfbc7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\a3862d571f2fb58df6e0c64d1aea4be6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\279eb5564fa197a2cbf2b56ad06e1d8a\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\469fa3a5a46eab115776e9f30cea3f91\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\a2f67c43376ce50dd7e4f101d0e68c19\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\82a8757603f5e01e29d6fc0ffb299946\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\7324eb8871ac1ef6e2857dacd7dd8557\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e459abe04c161b82143a5469ef18dadf\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\93ed168b6ddb6ed495298cee44efa660\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\4062201b26ddb95be424cf5e9571c18b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\7521c967baadb4e6c2810a4f4b90246f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\345e6832eba41d3db71d361d1bed2362\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\d8f86732db8b659f4d166be485059b0a\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\bceb2089d3df8b0c768542166eb5c0f5\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\d3e36710718fa2d2199012c7c1cc2873\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\e739d866c9527919d8623f0a2e77c22a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ad65c4d92436c4522a9bca5db4784ede\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\a5f1e2bbbd2dd433d97f15ed5800e14b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\b206921a47259d7fff0ac4eba6146f1b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\71a2e4811300ae741e4b003dffc90f67\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\57791e736f68537c194645f9a85d1ece\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\e30690e1cca26bcb72e942dea02ff368\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\7b619d92f70f385c10d7ed8ebed5a932\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\51586032b57a64ab65a74728a13ba270\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\f5363c40d2dc66bbe88510383f30fa38\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\997268a0a5ea21903b864f371f990c5a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\c34b8386648919a779df1085691075d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\c5c2d8eb5bb69001d12f3ca0f9be5e83\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\c52057ba596e4133af4f1a2afbd1b1c2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\f75a1c5d82a0791de4926416b0970841\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\a1927a141c6c3eddecd29e4fed2ffcd9\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\365cb209d31742f445ee48efd7799e85\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\ef405230dda89dfb33fb49bc9e935aef\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\ef2b980935376567101bec5aab74e88f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\36f93a948b084df0e853e692c11e2115\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\1821ed2d9618a52a5d2ef56aa744317d\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
+INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
+	package
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:2:5-32
+		INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
+		INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
+		INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:5:22-75
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:11:5-74
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:11:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:12:5-66
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:12:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:18:5-65
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:18:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:19:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:21:5-73
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:21:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:22:5-80
+MERGED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:23:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:24:5-81
+MERGED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:25:5-73
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:25:22-70
+application
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:28:5-46:19
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\27d2709d8a8d156cae707c8409d367bb\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\27d2709d8a8d156cae707c8409d367bb\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\63934194741790c1f382e78e86b7bb77\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\63934194741790c1f382e78e86b7bb77\AndroidManifest.xml:22:5-20
+MERGED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\19500d6c3bd9c38b2b547e23c3b55f33\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\19500d6c3bd9c38b2b547e23c3b55f33\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\de430fa6d2252ec5ac5e3ae37119ed5f\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\de430fa6d2252ec5ac5e3ae37119ed5f\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\bceb2089d3df8b0c768542166eb5c0f5\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\bceb2089d3df8b0c768542166eb5c0f5\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\57791e736f68537c194645f9a85d1ece\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\57791e736f68537c194645f9a85d1ece\AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\36f93a948b084df0e853e692c11e2115\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\36f93a948b084df0e853e692c11e2115\AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\bceb2089d3df8b0c768542166eb5c0f5\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:30:7-39
+	android:roundIcon
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:32:7-52
+	android:icon
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:31:7-41
+	android:allowBackup
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:33:7-34
+	android:theme
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:34:7-38
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:29:7-38
+activity#com.nep_unit_conv.MainActivity
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:35:7-44:18
+	android:label
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:37:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:39:9-51
+	android:configChanges
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:38:9-79
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:36:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:40:9-43:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:41:13-65
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:41:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:42:13-73
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:42:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:45:7-84
+	android:name
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:45:17-81
+uses-sdk
+INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+MERGED from [:expo-permissions] C:\Users\prajwal\Desktop\eject\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] C:\Users\prajwal\Desktop\eject\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\prajwal\Desktop\eject\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\prajwal\Desktop\eject\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\prajwal\Desktop\eject\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\prajwal\Desktop\eject\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_masked-view] C:\Users\prajwal\Desktop\eject\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] C:\Users\prajwal\Desktop\eject\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] C:\Users\prajwal\Desktop\eject\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\prajwal\Desktop\eject\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\prajwal\Desktop\eject\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\prajwal\Desktop\eject\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] C:\Users\prajwal\Desktop\eject\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] C:\Users\prajwal\Desktop\eject\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\27d2709d8a8d156cae707c8409d367bb\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\27d2709d8a8d156cae707c8409d367bb\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\63934194741790c1f382e78e86b7bb77\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\63934194741790c1f382e78e86b7bb77\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\179ca2bc8b603a8dac1fb1e07fa5fd7c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\179ca2bc8b603a8dac1fb1e07fa5fd7c\AndroidManifest.xml:20:5-22:41
+MERGED from [:expo-app-loader-provider] C:\Users\prajwal\Desktop\eject\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] C:\Users\prajwal\Desktop\eject\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\prajwal\Desktop\eject\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\prajwal\Desktop\eject\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\prajwal\Desktop\eject\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\prajwal\Desktop\eject\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\prajwal\Desktop\eject\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\9702e357d8d22d401dd2645a4a5dab4c\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\9702e357d8d22d401dd2645a4a5dab4c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\19500d6c3bd9c38b2b547e23c3b55f33\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\19500d6c3bd9c38b2b547e23c3b55f33\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\de430fa6d2252ec5ac5e3ae37119ed5f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\de430fa6d2252ec5ac5e3ae37119ed5f\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\a3160c1c474fe4c59d7afe8d1797b5ec\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\a3160c1c474fe4c59d7afe8d1797b5ec\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\d31c67ced01cc1a7094c30c3c1c41361\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\d31c67ced01cc1a7094c30c3c1c41361\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\3c2fb5b04a3265c3b1dd06b77e5711be\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\3c2fb5b04a3265c3b1dd06b77e5711be\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\8207bddb7c328c9a9b0f97ee7e0d7ee1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\8207bddb7c328c9a9b0f97ee7e0d7ee1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\690cbda236dca5a0a209a46b70d9f5fa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\690cbda236dca5a0a209a46b70d9f5fa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\6fc0b613fef80771ddac9409bc44adcc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\6fc0b613fef80771ddac9409bc44adcc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\e1641dfbadf28204d70c11fdf0fdfbc7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\e1641dfbadf28204d70c11fdf0fdfbc7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\a3862d571f2fb58df6e0c64d1aea4be6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\a3862d571f2fb58df6e0c64d1aea4be6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\279eb5564fa197a2cbf2b56ad06e1d8a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\279eb5564fa197a2cbf2b56ad06e1d8a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\469fa3a5a46eab115776e9f30cea3f91\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\469fa3a5a46eab115776e9f30cea3f91\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\a2f67c43376ce50dd7e4f101d0e68c19\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\a2f67c43376ce50dd7e4f101d0e68c19\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\82a8757603f5e01e29d6fc0ffb299946\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\82a8757603f5e01e29d6fc0ffb299946\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\7324eb8871ac1ef6e2857dacd7dd8557\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\7324eb8871ac1ef6e2857dacd7dd8557\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e459abe04c161b82143a5469ef18dadf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e459abe04c161b82143a5469ef18dadf\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\93ed168b6ddb6ed495298cee44efa660\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\93ed168b6ddb6ed495298cee44efa660\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\4062201b26ddb95be424cf5e9571c18b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\4062201b26ddb95be424cf5e9571c18b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\7521c967baadb4e6c2810a4f4b90246f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\7521c967baadb4e6c2810a4f4b90246f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\345e6832eba41d3db71d361d1bed2362\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\345e6832eba41d3db71d361d1bed2362\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\d8f86732db8b659f4d166be485059b0a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\d8f86732db8b659f4d166be485059b0a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\bceb2089d3df8b0c768542166eb5c0f5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\bceb2089d3df8b0c768542166eb5c0f5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\d3e36710718fa2d2199012c7c1cc2873\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\d3e36710718fa2d2199012c7c1cc2873\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\e739d866c9527919d8623f0a2e77c22a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\e739d866c9527919d8623f0a2e77c22a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ad65c4d92436c4522a9bca5db4784ede\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ad65c4d92436c4522a9bca5db4784ede\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\a5f1e2bbbd2dd433d97f15ed5800e14b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\a5f1e2bbbd2dd433d97f15ed5800e14b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\b206921a47259d7fff0ac4eba6146f1b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\b206921a47259d7fff0ac4eba6146f1b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\71a2e4811300ae741e4b003dffc90f67\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\71a2e4811300ae741e4b003dffc90f67\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\57791e736f68537c194645f9a85d1ece\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\57791e736f68537c194645f9a85d1ece\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\e30690e1cca26bcb72e942dea02ff368\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\e30690e1cca26bcb72e942dea02ff368\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\7b619d92f70f385c10d7ed8ebed5a932\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\7b619d92f70f385c10d7ed8ebed5a932\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\51586032b57a64ab65a74728a13ba270\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\51586032b57a64ab65a74728a13ba270\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\f5363c40d2dc66bbe88510383f30fa38\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\f5363c40d2dc66bbe88510383f30fa38\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\997268a0a5ea21903b864f371f990c5a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\997268a0a5ea21903b864f371f990c5a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\c34b8386648919a779df1085691075d2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\c34b8386648919a779df1085691075d2\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\c5c2d8eb5bb69001d12f3ca0f9be5e83\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\c5c2d8eb5bb69001d12f3ca0f9be5e83\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\c52057ba596e4133af4f1a2afbd1b1c2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\c52057ba596e4133af4f1a2afbd1b1c2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\f75a1c5d82a0791de4926416b0970841\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\f75a1c5d82a0791de4926416b0970841\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\a1927a141c6c3eddecd29e4fed2ffcd9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\a1927a141c6c3eddecd29e4fed2ffcd9\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\365cb209d31742f445ee48efd7799e85\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\365cb209d31742f445ee48efd7799e85\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\ef405230dda89dfb33fb49bc9e935aef\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\ef405230dda89dfb33fb49bc9e935aef\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\ef2b980935376567101bec5aab74e88f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\ef2b980935376567101bec5aab74e88f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\36f93a948b084df0e853e692c11e2115\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\36f93a948b084df0e853e692c11e2115\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\1821ed2d9618a52a5d2ef56aa744317d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\prajwal\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\1821ed2d9618a52a5d2ef56aa744317d\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:70
+	android:resource
+		ADDED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-67
+	android:name
+		ADDED from [:expo-file-system] C:\Users\prajwal\Desktop\eject\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
