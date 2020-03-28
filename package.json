@@ -2,7 +2,7 @@
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native run-ios"
   },
   "dependencies": {
     "@fortawesome/react-native-fontawesome": "^0.2.2",
