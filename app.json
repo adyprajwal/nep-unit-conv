@@ -1,38 +1,4 @@
 {
-  "expo": {
-    "name": "Nepali Unit Converter",
-    "slug": "nep-unit-conv",
-    "privacy": "public",
-    "sdkVersion": "36.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.0.0",
-    "orientation": "default",
-    "icon": "./assets/icon.jpg",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "cover",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "android": {
-      "package": "com.unitconverter.nepaliunitconverter",
-      "versionCode": 1
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-    "description": "This app intends to simplify the conversion of traditional Nepali Measurement Units into well known metric as well as imperial system.",
-    "entryPoint": "node_modules/expo/AppEntry.js"
-  },
   "displayName": "Nepali Unit Converter",
   "name": "nep_unit_conv"
 }
