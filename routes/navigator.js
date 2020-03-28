@@ -9,11 +9,9 @@ import TimeStack from "./timeStack";
 import AboutStack from "./aboutStack";
 import SettingsStack from "./settingsStack";
 import CustomDrawerContent from "../components/customDrawerContent";
-import {
-	MaterialCommunityIcons,
-	Entypo,
-	MaterialIcons
-} from "@expo/vector-icons";
+import Entypo from "react-native-vector-icons/Entypo";
+import MaterialIcons from "react-native-vector-icons/MaterialIcons";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import { StyleSheet, Text } from "react-native";
 
 const Drawer = createDrawerNavigator();
