@@ -7,7 +7,7 @@ export const globalStyles = StyleSheet.create({
 		backgroundColor: "#f0f0f0"
 	},
 	titleText: {
-		fontFamily: "exo2-bold"
+		fontFamily: "Exo2-Bold"
 	},
 
 	//HEADER STYLES
@@ -22,7 +22,7 @@ export const globalStyles = StyleSheet.create({
 		marginLeft: 25
 	},
 	headerText: {
-		fontFamily: "exo2-bold",
+		fontFamily: "Exo2-Bold",
 		fontSize: 20,
 		color: "#fff"
 	},
@@ -48,7 +48,7 @@ export const globalStyles = StyleSheet.create({
 	selector: {
 		flex: 1.7,
 		marginLeft: 5,
-		fontFamily: "exo2-regular",
+		fontFamily: "Exo2-Regular",
 		borderRadius: 4,
 		elevation: 3,
 		backgroundColor: "#fff"

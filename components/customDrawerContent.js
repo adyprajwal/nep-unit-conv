@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
 		color: "#003893",
 		marginVertical: 10,
 		marginLeft: 10,
-		fontFamily: "exo2-bold",
+		fontFamily: "Exo2-Bold",
 		fontSize: 20
 	},
 	drawerImage: {

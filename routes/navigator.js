@@ -137,7 +137,7 @@ export default function Navigator() {
 const styles = StyleSheet.create({
 	drawerLabel: {
 		color: "#333",
-		fontFamily: "exo2-regular",
+		fontFamily: "Exo2-Regular",
 		fontSize: 15
 	}
 });
