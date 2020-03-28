@@ -1,10 +1,11 @@
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, StatusBar } from "react-native";
 import { globalStyles } from "../styles/globalStyles";
 
 export default function About() {
 	return (
 		<View style={globalStyles.container}>
+			<StatusBar backgroundColor="#ddd" />
 			<Text style={styles.titleText}>Nepali Unit Converter</Text>
 			<Text style={styles.versionText}> Version: 1.0</Text>
 			<Text style={styles.descriptionText}>

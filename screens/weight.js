@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View } from "react-native";
+import { View, StatusBar } from "react-native";
 import { globalStyles } from "../styles/globalStyles";
 import InputCard from "../components/shared/inputCard";
 import ResultCard from "../components/shared/resultCard";
@@ -81,6 +81,7 @@ export default function Weight() {
 
 	return (
 		<View style={globalStyles.container}>
+			<StatusBar backgroundColor="#ff6d05" />
 			<InputCard units={units} convert={convert} />
 			<ResultCard units={units} results={results} />
 		</View>

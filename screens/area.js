@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View } from "react-native";
+import { View, StatusBar } from "react-native";
 import { globalStyles } from "../styles/globalStyles";
 import InputCard from "../components/shared/inputCard";
 import ResultCard from "../components/shared/resultCard";
@@ -94,6 +94,7 @@ export default function Area() {
 
 	return (
 		<View style={globalStyles.container}>
+			<StatusBar backgroundColor="#ff3526" />
 			<InputCard units={units} convert={convert} />
 			<ResultCard units={units} results={results} />
 		</View>
