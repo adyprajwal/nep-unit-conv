@@ -34,7 +34,8 @@ export default function Navigator() {
 						),
 						drawerIcon: () => (
 							<Entypo size={22} color="gray" name="location" />
-						)
+						),
+						unmountOnBlur: true
 					}}
 				/>
 				<Drawer.Screen
@@ -47,7 +48,8 @@ export default function Navigator() {
 						),
 						drawerIcon: ({}) => (
 							<Entypo size={22} color="gray" name="ruler" />
-						)
+						),
+						unmountOnBlur: true
 					}}
 				/>
 				<Drawer.Screen
@@ -60,7 +62,8 @@ export default function Navigator() {
 						),
 						drawerIcon: ({}) => (
 							<Entypo size={22} color="gray" name="lab-flask" />
-						)
+						),
+						unmountOnBlur: true
 					}}
 				/>
 				<Drawer.Screen
@@ -77,7 +80,8 @@ export default function Navigator() {
 								color="gray"
 								name="weight"
 							/>
-						)
+						),
+						unmountOnBlur: true
 					}}
 				/>
 				<Drawer.Screen
@@ -94,7 +98,8 @@ export default function Navigator() {
 								color="gray"
 								name="clock"
 							/>
-						)
+						),
+						unmountOnBlur: true
 					}}
 				/>
 				{/* <Drawer.Screen
@@ -111,7 +116,8 @@ export default function Navigator() {
 								color="gray"
 								name="settings"
 							/>
-						)
+						),
+						unmountOnBlur: true
 					}}
 				/> */}
 				<Drawer.Screen
@@ -124,7 +130,8 @@ export default function Navigator() {
 						),
 						drawerIcon: ({}) => (
 							<MaterialIcons size={25} color="gray" name="info" />
-						)
+						),
+						unmountOnBlur: true
 					}}
 				/>
 			</Drawer.Navigator>
