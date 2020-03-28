@@ -3,7 +3,6 @@ import { View } from "react-native";
 import { globalStyles } from "../styles/globalStyles";
 import InputCard from "../components/shared/inputCard";
 import ResultCard from "../components/shared/resultCard";
-import KeyboardSpacer from "react-native-keyboard-spacer";
 
 export default function Time() {
 	const units = [
@@ -87,7 +86,6 @@ export default function Time() {
 		<View style={globalStyles.container}>
 			<InputCard units={units} convert={convert} />
 			<ResultCard units={units} results={results} />
-			<KeyboardSpacer />
 		</View>
 	);
 }
