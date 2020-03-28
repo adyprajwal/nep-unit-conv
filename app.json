@@ -30,6 +30,9 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": "This app intends to simplify the conversion of traditional Nepali Measurement Units into well known metric as well as imperial system."
-  }
+    "description": "This app intends to simplify the conversion of traditional Nepali Measurement Units into well known metric as well as imperial system.",
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "Nepali Unit Converter",
+  "name": "nep_unit_conv"
 }
