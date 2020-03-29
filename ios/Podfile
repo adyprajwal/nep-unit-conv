@@ -45,4 +45,6 @@ target 'nep_unit_conv' do
   use_native_modules!
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
+
 end
