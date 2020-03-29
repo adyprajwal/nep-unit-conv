@@ -12,7 +12,7 @@ export default function CustomDrawerContent(props) {
 			<View style={styles.drawerHeader}>
 				<Image
 					style={styles.drawerImage}
-					source={require("../assets/icon2.png")}
+					source={require("../assets/icon.png")}
 				/>
 				<Text style={styles.drawerHeaderTitle}>
 					Nepali Unit Converter
