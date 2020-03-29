@@ -8,7 +8,7 @@ import { StyleSheet, Image, View, Text } from "react-native";
 
 export default function CustomDrawerContent(props) {
 	return (
-		<DrawerContentScrollView {...props} contentContainerStyle={{ flex: 1 }}>
+		<DrawerContentScrollView {...props}>
 			<View style={styles.drawerHeader}>
 				<Image
 					style={styles.drawerImage}
