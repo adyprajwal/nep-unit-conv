@@ -4,6 +4,7 @@ ADDED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.x
 INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
 INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml:1:1-48:12
+MERGED from [:react-native-vector-icons] C:\Users\prajwal\Desktop\eject\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-permissions] C:\Users\prajwal\Desktop\eject\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-screens] C:\Users\prajwal\Desktop\eject\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-react-native-adapter] C:\Users\prajwal\Desktop\eject\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -228,6 +229,8 @@ uses-sdk
 INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\prajwal\Desktop\eject\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-vector-icons] C:\Users\prajwal\Desktop\eject\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\prajwal\Desktop\eject\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-permissions] C:\Users\prajwal\Desktop\eject\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:expo-permissions] C:\Users\prajwal\Desktop\eject\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-screens] C:\Users\prajwal\Desktop\eject\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
