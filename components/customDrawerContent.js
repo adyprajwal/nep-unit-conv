@@ -14,9 +14,7 @@ export default function CustomDrawerContent(props) {
 					style={styles.drawerImage}
 					source={require("../assets/icon.png")}
 				/>
-				<Text style={styles.drawerHeaderTitle}>
-					Nepali Unit Converter
-				</Text>
+				<Text style={styles.drawerHeaderTitle}>Unit Converter</Text>
 			</View>
 			<View style={{ flex: 6 }}>
 				<DrawerItemList {...props} />
@@ -25,26 +23,22 @@ export default function CustomDrawerContent(props) {
 	);
 }
 const styles = StyleSheet.create({
-	drawerContainer: {
-		flex: 1
-	},
 	drawerHeader: {
 		flex: 2,
 		backgroundColor: "#e3e1e1",
 		justifyContent: "flex-end"
 	},
+	drawerImage: {
+		marginLeft: 10,
+		height: 90,
+		width: 90
+	},
 	drawerHeaderTitle: {
 		height: 30,
-		color: "#003893",
-		marginVertical: 10,
+		color: "#c85151",
+		marginBottom: 10,
 		marginLeft: 10,
 		fontFamily: "Exo2-Bold",
-		fontSize: 20
-	},
-	drawerImage: {
-		height: 80,
-		width: 80,
-		marginLeft: 10,
-		borderRadius: 10
+		fontSize: 21
 	}
 });
