@@ -2,7 +2,7 @@
 This is a simple app which converts traditional Nepali Customary Units into metric as well as imperial unit system and vice-versa.
 
 ## Get the app
-Download the app for Android OS from [Google Play Store](https://play.google.com/store/apps)
+Download the app for Android OS from [Google Play Store](https://play.google.com/store/apps/details?id=com.nep_unit_conv)
 
 Or,
 
