@@ -15,7 +15,7 @@ export default function Volume() {
 			index: "5",
 			label: "Cubic Meter",
 			value: "cubicMeter",
-			num: 0.004544596
+			num: 0.00454596,
 		},
 		{ index: "6", label: "Liter", value: "liter", num: 4.54596 },
 		{ index: "7", label: "Milliliter", value: "milliliter", num: 4545.96 },
@@ -23,9 +23,9 @@ export default function Volume() {
 			index: "8",
 			label: "Cubic Foot",
 			value: "cubicFoot",
-			num: 0.16053906
+			num: 0.16053906,
 		},
-		{ index: "9", label: "Cubic Inch", value: "cubicInch", num: 277.4115 }
+		{ index: "9", label: "Cubic Inch", value: "cubicInch", num: 277.4115 },
 	];
 
 	const [muri, setMuri] = useState("0");
@@ -39,8 +39,8 @@ export default function Volume() {
 	const [cubicFoot, setCubicFoot] = useState("0");
 	const [cubicInch, setCubicInch] = useState("0");
 
-	const values = units.map(item => item.value);
-	const nums = units.map(item => item.num);
+	const values = units.map((item) => item.value);
+	const nums = units.map((item) => item.num);
 
 	const convert = (val, unit) => {
 		for (i = 0; i < 10; i++) {
@@ -69,7 +69,7 @@ export default function Volume() {
 		{ key: "6", label: "Pathi", value: pathi },
 		{ key: "7", label: "Kuruwa", value: kuruwa },
 		{ key: "8", label: "Mana", value: mana },
-		{ key: "9", label: "Muthi", value: muthi }
+		{ key: "9", label: "Muthi", value: muthi },
 	];
 
 	return (
