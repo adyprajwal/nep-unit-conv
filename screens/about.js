@@ -16,7 +16,7 @@ export default function About() {
 			<View style={styles.credits}>
 				<Text style={styles.creditsText}>Powered By</Text>
 				<Text style={[styles.creditsText, { fontWeight: "bold" }]}>
-					© Magic Cube Engineering 2020
+					© 2020 Magic Cube Engineering
 				</Text>
 			</View>
 		</View>
@@ -27,29 +27,29 @@ const styles = StyleSheet.create({
 		fontFamily: "Exo2-Bold",
 		color: "#444",
 		fontSize: 19,
-		alignSelf: "center"
+		alignSelf: "center",
 	},
 	versionText: {
 		fontSize: 15,
 		color: "#444",
 		alignSelf: "center",
-		fontFamily: "Exo2-Bold"
+		fontFamily: "Exo2-Bold",
 	},
 	descriptionText: {
 		fontFamily: "Exo2-Regular",
 		color: "#555",
 		marginTop: 30,
 		paddingHorizontal: 15,
-		textAlign: "justify"
+		textAlign: "justify",
 	},
 	credits: {
 		fontFamily: "Exo2-Regular",
 		color: "#555",
-		marginTop: 50
+		marginTop: 50,
 	},
 	creditsText: {
 		fontFamily: "Exo2-Regular",
 		color: "#555",
-		alignSelf: "center"
-	}
+		alignSelf: "center",
+	},
 });
