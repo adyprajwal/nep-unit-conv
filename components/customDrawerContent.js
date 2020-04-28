@@ -2,7 +2,7 @@ import React from "react";
 import {
 	DrawerContentScrollView,
 	DrawerItemList,
-	DrawerItem
+	DrawerItem,
 } from "@react-navigation/drawer";
 import { StyleSheet, Image, View, Text } from "react-native";
 
@@ -14,7 +14,9 @@ export default function CustomDrawerContent(props) {
 					style={styles.drawerImage}
 					source={require("../assets/icon.png")}
 				/>
-				<Text style={styles.drawerHeaderTitle}>Unit Converter</Text>
+				<Text style={styles.drawerHeaderTitle}>
+					Nepali Unit Converter
+				</Text>
 			</View>
 			<View style={{ flex: 6 }}>
 				<DrawerItemList {...props} />
@@ -26,12 +28,12 @@ const styles = StyleSheet.create({
 	drawerHeader: {
 		flex: 2,
 		backgroundColor: "#e3e1e1",
-		justifyContent: "flex-end"
+		justifyContent: "flex-end",
 	},
 	drawerImage: {
 		marginLeft: 10,
 		height: 90,
-		width: 90
+		width: 90,
 	},
 	drawerHeaderTitle: {
 		height: 30,
@@ -39,6 +41,6 @@ const styles = StyleSheet.create({
 		marginBottom: 10,
 		marginLeft: 10,
 		fontFamily: "Exo2-Bold",
-		fontSize: 21
-	}
+		fontSize: 21,
+	},
 });
