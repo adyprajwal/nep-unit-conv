@@ -23,7 +23,7 @@ export default function Volume() {
 			index: "8",
 			label: "Cubic Foot",
 			value: "cubicFoot",
-			num: 0.16053906,
+			num: 0.1605390625,
 		},
 		{ index: "9", label: "Cubic Inch", value: "cubicInch", num: 277.4115 },
 	];
