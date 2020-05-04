@@ -12,25 +12,25 @@ export default function Area() {
 		{ index: "3", label: "Aana", value: "aana", num: 16 },
 		{ index: "4", label: "Paisa", value: "paisa", num: 64 },
 		{ index: "5", label: "Daam", value: "daam", num: 256 },
-		{ index: "6", label: "Bigha", value: "bigha", num: 0.07512 },
-		{ index: "7", label: "Kattha", value: "kattha", num: 1.50233 },
-		{ index: "8", label: "Dhur", value: "dhur", num: 30.04664 },
+		{ index: "6", label: "Bigha", value: "bigha", num: 0.0751165981 },
+		{ index: "7", label: "Kattha", value: "kattha", num: 1.5023319616 },
+		{ index: "8", label: "Dhur", value: "dhur", num: 30.0466392318 },
 		{
 			index: "9",
 			label: "Square Kilometer",
 			value: "sqkm",
-			num: 0.000508737
+			num: 0.000508737,
 		},
 		{ index: "10", label: "Square Meter", value: "sqmtr", num: 508.737 },
 		{
 			index: "11",
 			label: "Square Mile",
 			value: "sqmil",
-			num: 0.0001964245
+			num: 0.0001964245,
 		},
 		{ index: "12", label: "Square Feet", value: "sqft", num: 5476 },
 		{ index: "13", label: "Hectare", value: "hectare", num: 0.0508737 },
-		{ index: "14", label: "Acre", value: "acre", num: 0.1257117 }
+		{ index: "14", label: "Acre", value: "acre", num: 0.1257117 },
 	];
 
 	const [khetmuri, setKhetmuri] = useState("0");
@@ -49,8 +49,8 @@ export default function Area() {
 	const [hectare, setHectare] = useState("0");
 	const [acre, setAcre] = useState("0");
 
-	const values = units.map(item => item.value);
-	const nums = units.map(item => item.num);
+	const values = units.map((item) => item.value);
+	const nums = units.map((item) => item.num);
 
 	const convert = (val, unit) => {
 		for (let i = 0; i < 15; i++) {
@@ -89,7 +89,7 @@ export default function Area() {
 		{ key: "11", label: "Daam", value: daam },
 		{ key: "12", label: "Bigha", value: bigha },
 		{ key: "13", label: "Kattha", value: kattha },
-		{ key: "14", label: "Dhur", value: dhur }
+		{ key: "14", label: "Dhur", value: dhur },
 	];
 
 	return (
