@@ -6,13 +6,13 @@ import ResultCard from "../components/shared/resultCard";
 
 export default function Length() {
 	const units = [
-		{ index: "0", label: "Yojan", value: "yojan", num: 0.0000631313 },
-		{ index: "1", label: "Kosh", value: "kosh", num: 0.000252525 },
+		{ index: "0", label: "Yojan", value: "yojan", num: 0.0000625 },
+		{ index: "1", label: "Kosh", value: "kosh", num: 0.00025 },
 		{
 			index: "2",
 			label: "Danda/Dhanush",
 			value: "danda",
-			num: 0.505050101
+			num: 0.5,
 		},
 		{ index: "3", label: "Gaj", value: "gaj", num: 1 },
 		{ index: "4", label: "Haath", value: "haath", num: 2 },
@@ -24,14 +24,14 @@ export default function Length() {
 			index: "9",
 			label: "Kilometer",
 			value: "kilometer",
-			num: 0.000914399
+			num: 0.0009144,
 		},
-		{ index: "10", label: "Meter", value: "meter", num: 0.914399 },
-		{ index: "11", label: "Centimeter", value: "centimeter", num: 91.4399 },
-		{ index: "12", label: "Mile", value: "mile", num: 0.000568188 },
+		{ index: "10", label: "Meter", value: "meter", num: 0.9144 },
+		{ index: "11", label: "Centimeter", value: "centimeter", num: 91.44 },
+		{ index: "12", label: "Mile", value: "mile", num: 0.000568182 },
 		{ index: "13", label: "Yard", value: "yard", num: 1 },
 		{ index: "14", label: "Foot", value: "foot", num: 3 },
-		{ index: "15", label: "Inch", value: "inch", num: 36 }
+		{ index: "15", label: "Inch", value: "inch", num: 36 },
 	];
 
 	const [yojan, setYojan] = useState("0");
@@ -51,8 +51,8 @@ export default function Length() {
 	const [foot, setFoot] = useState("0");
 	const [inch, setInch] = useState("0");
 
-	const nums = units.map(item => item.num);
-	const values = units.map(item => item.value);
+	const nums = units.map((item) => item.num);
+	const values = units.map((item) => item.value);
 
 	const convert = (val, unit) => {
 		for (let i = 0; i < 16; i++) {
@@ -93,7 +93,7 @@ export default function Length() {
 		{ key: "12", label: "Bitta", value: bitta },
 		{ key: "13", label: "Dhanurmushti", value: dhanurmushti },
 		{ key: "14", label: "Dhanurgrah", value: dhanurgrah },
-		{ key: "15", label: "Angul", value: angul }
+		{ key: "15", label: "Angul", value: angul },
 	];
 
 	return (
