@@ -1,6 +1,7 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createDrawerNavigator } from "@react-navigation/drawer";
+import NepaliLandStack from "./nepaliLandStack";
 import AreaStack from "./areaStack";
 import LengthStack from "./lengthStack";
 import VolumeStack from "./volumeStack";
@@ -21,9 +22,25 @@ export default function Navigator() {
 			<Drawer.Navigator
 				initialRouteName="Area"
 				drawerStyle={{ backgroundColor: "#e3e1e1", flex: 1 }}
-				drawerContent={props => <CustomDrawerContent {...props} />}
+				drawerContent={(props) => <CustomDrawerContent {...props} />}
 				contentContainerStyle={{ flex: 1 }}
 			>
+				<Drawer.Screen
+					name="NepaliLand"
+					component={NepaliLandStack}
+					options={{
+						title: "Nepali Land Converter",
+						drawerLabel: () => (
+							<Text style={styles.drawerLabel}>
+								Nepali Land Converter
+							</Text>
+						),
+						drawerIcon: () => (
+							<Entypo size={22} color="gray" name="foursquare" />
+						),
+						unmountOnBlur: true,
+					}}
+				/>
 				<Drawer.Screen
 					name="Area"
 					component={AreaStack}
@@ -35,7 +52,7 @@ export default function Navigator() {
 						drawerIcon: () => (
 							<Entypo size={22} color="gray" name="location" />
 						),
-						unmountOnBlur: true
+						unmountOnBlur: true,
 					}}
 				/>
 				<Drawer.Screen
@@ -49,7 +66,7 @@ export default function Navigator() {
 						drawerIcon: ({}) => (
 							<Entypo size={22} color="gray" name="ruler" />
 						),
-						unmountOnBlur: true
+						unmountOnBlur: true,
 					}}
 				/>
 				<Drawer.Screen
@@ -63,7 +80,7 @@ export default function Navigator() {
 						drawerIcon: ({}) => (
 							<Entypo size={22} color="gray" name="lab-flask" />
 						),
-						unmountOnBlur: true
+						unmountOnBlur: true,
 					}}
 				/>
 				<Drawer.Screen
@@ -81,7 +98,7 @@ export default function Navigator() {
 								name="weight"
 							/>
 						),
-						unmountOnBlur: true
+						unmountOnBlur: true,
 					}}
 				/>
 				<Drawer.Screen
@@ -99,7 +116,7 @@ export default function Navigator() {
 								name="clock"
 							/>
 						),
-						unmountOnBlur: true
+						unmountOnBlur: true,
 					}}
 				/>
 				{/* <Drawer.Screen
@@ -131,7 +148,7 @@ export default function Navigator() {
 						drawerIcon: ({}) => (
 							<MaterialIcons size={25} color="gray" name="info" />
 						),
-						unmountOnBlur: true
+						unmountOnBlur: true,
 					}}
 				/>
 			</Drawer.Navigator>
@@ -143,6 +160,6 @@ const styles = StyleSheet.create({
 	drawerLabel: {
 		color: "#333",
 		fontFamily: "Exo2-Regular",
-		fontSize: 15
-	}
+		fontSize: 15,
+	},
 });
