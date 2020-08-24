@@ -10,8 +10,8 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 						<TextInput
 							style={styles.inputField}
 							value={state.ropani}
-							onChange={(evt) =>
-								handleTextChange(evt, { name: "ropani" })
+							onChangeText={(text) =>
+								handleTextChange(text, { name: "ropani" })
 							}
 							placeholder="0"
 							keyboardType={"numeric"}
@@ -22,8 +22,8 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 						<TextInput
 							style={styles.inputField}
 							value={state.aana}
-							onChange={(evt) =>
-								handleTextChange(evt, { name: "aana" })
+							onChangeText={(text) =>
+								handleTextChange(text, { name: "aana" })
 							}
 							placeholder="0"
 							keyboardType={"numeric"}
@@ -34,8 +34,8 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 						<TextInput
 							style={styles.inputField}
 							value={state.paisa}
-							onChange={(evt) =>
-								handleTextChange(evt, { name: "paisa" })
+							onChangeText={(text) =>
+								handleTextChange(text, { name: "paisa" })
 							}
 							placeholder="0"
 							keyboardType={"numeric"}
@@ -46,8 +46,8 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 						<TextInput
 							style={styles.inputField}
 							value={state.daam}
-							onChange={(evt) =>
-								handleTextChange(evt, { name: "daam" })
+							onChangeText={(text) =>
+								handleTextChange(text, { name: "daam" })
 							}
 							placeholder="0"
 							keyboardType={"numeric"}

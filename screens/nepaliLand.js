@@ -22,8 +22,7 @@ export default function NepaliLand() {
 	const handleUnitChange = (value) => {
 		setUnit(value);
 	};
-	const handleTextChange = (evt, { name }) => {
-		const text = evt.nativeEvent.text;
+	const handleTextChange = (text, { name }) => {
 		setState({ ...state, [name]: text });
 	};
 	return (
