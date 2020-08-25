@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
 	},
 	inputFieldLabel: {
 		alignSelf: "center",
-		fontFamily: "Exo2-Regular",
-		fontSize: 17,
+		color: "gray",
+		fontSize: 15,
 	},
 });

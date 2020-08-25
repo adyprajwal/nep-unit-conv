@@ -4,6 +4,7 @@ import { globalStyles } from "../styles/globalStyles";
 import Card from "../components/nepaliLandConverter/card";
 import LandInputSelection from "../components/nepaliLandConverter/landInputSelection";
 import LandInputField from "../components/nepaliLandConverter/landInputField";
+import LandResultCard from "../components/nepaliLandConverter/landResultCard";
 
 export default function NepaliLand() {
 	const [unit, setUnit] = useState("rapd");
@@ -18,7 +19,17 @@ export default function NepaliLand() {
 		sqmtr: "",
 		sqft: "",
 	});
-
+	const [results, setResults] = useState({
+		ropani: "0",
+		aana: "0",
+		paisa: "0",
+		daam: "0",
+		bigha: "0",
+		kattha: "0",
+		dhur: "0",
+		sqmtr: "0",
+		sqft: "0",
+	});
 	const handleUnitChange = (value) => {
 		setUnit(value);
 	};
@@ -38,6 +49,9 @@ export default function NepaliLand() {
 					unit={unit}
 					handleTextChange={handleTextChange}
 				/>
+			</Card>
+			<Card>
+				<LandResultCard results={results} />
 			</Card>
 		</View>
 	);
