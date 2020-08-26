@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, TextInput, StyleSheet } from "react-native";
 
-export default function LandInputField({ unit, state, handleTextChange }) {
+export default function LandInputField({ unit, values, handleTextChange }) {
 	const renderInputField = (unit) => {
 		switch (unit) {
 			case "rapd": {
@@ -10,7 +10,7 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 						<View style={styles.unitBox}>
 							<TextInput
 								style={styles.inputField}
-								value={state.ropani}
+								defaultValue={values.ropani}
 								onChangeText={(text) =>
 									handleTextChange(text, { name: "ropani" })
 								}
@@ -22,7 +22,7 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 						<View style={styles.unitBox}>
 							<TextInput
 								style={styles.inputField}
-								value={state.aana}
+								defaultValue={values.aana}
 								onChangeText={(text) =>
 									handleTextChange(text, { name: "aana" })
 								}
@@ -34,7 +34,7 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 						<View style={styles.unitBox}>
 							<TextInput
 								style={styles.inputField}
-								value={state.paisa}
+								defaultValue={values.paisa}
 								onChangeText={(text) =>
 									handleTextChange(text, { name: "paisa" })
 								}
@@ -46,7 +46,7 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 						<View style={styles.unitBox}>
 							<TextInput
 								style={styles.inputField}
-								value={state.daam}
+								defaultValue={values.daam}
 								onChangeText={(text) =>
 									handleTextChange(text, { name: "daam" })
 								}
@@ -64,7 +64,7 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 						<View style={styles.unitBox}>
 							<TextInput
 								style={styles.inputField}
-								value={state.bigha}
+								defaultVvalue={values.bigha}
 								onChangeText={(text) =>
 									handleTextChange(text, { name: "bigha" })
 								}
@@ -76,7 +76,7 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 						<View style={styles.unitBox}>
 							<TextInput
 								style={styles.inputField}
-								value={state.kattha}
+								defaultValue={values.kattha}
 								onChangeText={(text) =>
 									handleTextChange(text, { name: "kattha" })
 								}
@@ -88,7 +88,7 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 						<View style={styles.unitBox}>
 							<TextInput
 								style={styles.inputField}
-								value={state.dhur}
+								defaultValue={values.dhur}
 								onChangeText={(text) =>
 									handleTextChange(text, { name: "dhur" })
 								}
@@ -108,7 +108,7 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 								styles.inputField,
 								{ flex: 2, marginRight: 20 },
 							]}
-							value={state.sqmtr}
+							defaultValue={values.sqmtr}
 							onChangeText={(text) =>
 								handleTextChange(text, { name: "sqmtr" })
 							}
@@ -129,7 +129,7 @@ export default function LandInputField({ unit, state, handleTextChange }) {
 								styles.inputField,
 								{ flex: 2, marginRight: 20 },
 							]}
-							value={state.sqft}
+							defaultValue={values.sqft}
 							onChangeText={(text) =>
 								handleTextChange(text, { name: "sqft" })
 							}

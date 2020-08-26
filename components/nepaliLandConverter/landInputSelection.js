@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { View, Text, StatusBar, StyleSheet } from "react-native";
 import RNPickerSelect from "react-native-picker-select";
 
-export default function LandInputSelection({ state, handleUnitChange }) {
+export default function LandInputSelection({ handleUnitChange }) {
 	return (
 		<View style={styles.inputUnitView}>
 			<View style={styles.inputUnitLabel}>

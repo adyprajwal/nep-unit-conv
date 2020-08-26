@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { View, Text, StatusBar, StyleSheet } from "react-native";
 import { globalStyles } from "../styles/globalStyles";
 import Card from "../components/nepaliLandConverter/card";
@@ -8,7 +8,7 @@ import LandResultCard from "../components/nepaliLandConverter/landResultCard";
 
 export default function NepaliLand() {
 	const [unit, setUnit] = useState("rapd");
-	const [state, setState] = useState({
+	const [values, setValues] = useState({
 		ropani: "",
 		aana: "",
 		paisa: "",
@@ -30,22 +30,83 @@ export default function NepaliLand() {
 		sqmtr: "0",
 		sqft: "0",
 	});
+
+	const convert = (unit, values) => {
+		let baseRopani;
+		switch (unit) {
+			case "rapd": {
+				baseRopani =
+					values.ropani / 1 +
+					values.aana / 16 +
+					values.paisa / 64 +
+					values.daam / 256;
+				break;
+			}
+			case "bkd": {
+				baseRopani =
+					values.bigha / 0.0751165981 +
+					values.kattha / 1.5023319616 +
+					values.dhur / 30.0466392318;
+				break;
+			}
+			case "sqmtr": {
+				baseRopani = values.sqmtr / 508.737;
+				break;
+			}
+			case "sqft": {
+				baseRopani = values.sqft / 5476;
+				break;
+			}
+		}
+		let tempRopani = baseRopani * 1;
+		let ropani = parseInt(tempRopani);
+		let tempAana = (tempRopani % 1) * 16;
+		let aana = parseInt(tempAana);
+		let tempPaisa = (tempAana % 1) * 4;
+		let paisa = parseInt(tempPaisa);
+		let daam = +((tempPaisa % 1) * 4).toFixed(3);
+		let tempBigha = baseRopani * 0.0751165981;
+		let bigha = parseInt(tempBigha);
+		let tempKattha = (tempBigha % 1) * 20;
+		let kattha = parseInt(tempKattha);
+		let dhur = +((tempKattha % 1) * 20).toFixed(5);
+		let sqmtr = +(baseRopani * 508.737).toFixed(5);
+		let sqft = +(baseRopani * 5476).toFixed(5);
+		setResults({
+			ropani: ropani,
+			aana: aana,
+			paisa: paisa,
+			daam: daam,
+			bigha: bigha,
+			kattha: kattha,
+			dhur: dhur,
+			sqmtr: sqmtr,
+			sqft: sqft,
+		});
+	};
+
 	const handleUnitChange = (value) => {
 		setUnit(value);
+		convert(unit, values);
 	};
+
 	const handleTextChange = (text, { name }) => {
-		setState({ ...state, [name]: text });
+		setValues({ ...values, [name]: text });
+		convert(unit, values);
+		console.log("Name", name, text, unit);
+		console.log(values);
 	};
+
 	return (
 		<View style={globalStyles.container}>
 			<StatusBar backgroundColor="#b05643" />
 			<Card>
 				<LandInputSelection
-					state={state}
+					values={values}
 					handleUnitChange={handleUnitChange}
 				/>
 				<LandInputField
-					state={state}
+					values={values}
 					unit={unit}
 					handleTextChange={handleTextChange}
 				/>
