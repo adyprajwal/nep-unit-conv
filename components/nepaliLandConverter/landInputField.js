@@ -12,7 +12,7 @@ export default function LandInputField({ unit, values, handleTextChange }) {
 								style={styles.inputField}
 								defaultValue={values.ropani}
 								onChangeText={(text) =>
-									handleTextChange(text, { name: "ropani" })
+									handleTextChange(text, "ropani")
 								}
 								placeholder="0"
 								keyboardType={"numeric"}
@@ -24,7 +24,7 @@ export default function LandInputField({ unit, values, handleTextChange }) {
 								style={styles.inputField}
 								defaultValue={values.aana}
 								onChangeText={(text) =>
-									handleTextChange(text, { name: "aana" })
+									handleTextChange(text, "aana")
 								}
 								placeholder="0"
 								keyboardType={"numeric"}
@@ -36,7 +36,7 @@ export default function LandInputField({ unit, values, handleTextChange }) {
 								style={styles.inputField}
 								defaultValue={values.paisa}
 								onChangeText={(text) =>
-									handleTextChange(text, { name: "paisa" })
+									handleTextChange(text, "paisa")
 								}
 								placeholder="0"
 								keyboardType={"numeric"}
@@ -48,7 +48,7 @@ export default function LandInputField({ unit, values, handleTextChange }) {
 								style={styles.inputField}
 								defaultValue={values.daam}
 								onChangeText={(text) =>
-									handleTextChange(text, { name: "daam" })
+									handleTextChange(text, "daam")
 								}
 								placeholder="0"
 								keyboardType={"numeric"}
@@ -66,7 +66,7 @@ export default function LandInputField({ unit, values, handleTextChange }) {
 								style={styles.inputField}
 								defaultVvalue={values.bigha}
 								onChangeText={(text) =>
-									handleTextChange(text, { name: "bigha" })
+									handleTextChange(text, "bigha")
 								}
 								placeholder="0"
 								keyboardType={"numeric"}
@@ -78,7 +78,7 @@ export default function LandInputField({ unit, values, handleTextChange }) {
 								style={styles.inputField}
 								defaultValue={values.kattha}
 								onChangeText={(text) =>
-									handleTextChange(text, { name: "kattha" })
+									handleTextChange(text, "kattha")
 								}
 								placeholder="0"
 								keyboardType={"numeric"}
@@ -90,7 +90,7 @@ export default function LandInputField({ unit, values, handleTextChange }) {
 								style={styles.inputField}
 								defaultValue={values.dhur}
 								onChangeText={(text) =>
-									handleTextChange(text, { name: "dhur" })
+									handleTextChange(text, "dhur")
 								}
 								placeholder="0"
 								keyboardType={"numeric"}
@@ -110,7 +110,7 @@ export default function LandInputField({ unit, values, handleTextChange }) {
 							]}
 							defaultValue={values.sqmtr}
 							onChangeText={(text) =>
-								handleTextChange(text, { name: "sqmtr" })
+								handleTextChange(text, "sqmtr")
 							}
 							placeholder="0"
 							keyboardType={"numeric"}
@@ -131,7 +131,7 @@ export default function LandInputField({ unit, values, handleTextChange }) {
 							]}
 							defaultValue={values.sqft}
 							onChangeText={(text) =>
-								handleTextChange(text, { name: "sqft" })
+								handleTextChange(text, "sqft")
 							}
 							placeholder="0"
 							keyboardType={"numeric"}
