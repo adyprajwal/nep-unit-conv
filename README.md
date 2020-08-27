@@ -1,7 +1,9 @@
 # Nepali Unit Converter
+
 This is a simple app which converts traditional Nepali Customary Units into metric as well as imperial unit system and vice-versa.
 
 ## Get the app
+
 Download the app for Android OS from [Google Play Store](https://play.google.com/store/apps/details?id=com.nep_unit_conv)
 
 Or,
@@ -9,6 +11,7 @@ Or,
 Download the `apk` from the [release](https://github.com/adyprajwal/nep-unit-conv/releases) section of this repository
 
 ## Features
+
 1. Instant conversions as you type
 
 2. Accurate conversions
@@ -20,36 +23,51 @@ Download the `apk` from the [release](https://github.com/adyprajwal/nep-unit-con
 ## Description
 
 Categories supported within the application:
-1. Area
-2. Length
-3. Volume
-4. Weight
-5. Time
+
+1. Nepali Land Converter (Complex Conversion)
+2. Area
+3. Length
+4. Volume
+5. Weight
+6. Time
 
 Units Supported within each category:
 
-1. Area
-* Nepali Units : Khetmuri, Matomuri, Ropani, Aana, Paisa, Daam, Bigha, Kattha, Dhur
-* International Units : Square Kilometer, Square Meter, Square Mile, Square Feet, Hectare, Acre
+1. Nepali Land Converter
+   Users will be able to make complex conversion by inputting value in any of the following format and getting results in those same format as well.
 
-2. Length
+-   [Ropani - Aana - Paisa - Daam]
+-   [Bigha - Kattha - Dhur]
+-   [Square Meter]
+-   [Square Feet]
 
-* Nepali Units : Yojan, Kosh, Danda/Dhanush, Gaj, Haath, Bitta, Dhanurmushti, Dhanurgrah, Angul
-* International Units : Kilometer, Meter, Centimeter, Mile, Yard, Foot, Inch
+2. Area
 
-3. Volume
-* Nepali Units : Muri, Pathi, Kuruwa, Mana, Muthi
-* International Units : Cubic Meter, Liter, Milliliter, Cubic Foot, Cubic Inch
+-   Nepali Units : Khetmuri, Matomuri, Ropani, Aana, Paisa, Daam, Bigha, Kattha, Dhur
+-   International Units : Square Kilometer, Square Meter, Square Mile, Square Feet, Hectare, Acre
 
-4. Weight
-* Nepali Units : Dharni, Sher, Pau, Pau(Ktm), Chatak, Tola, Lal
-* International Units: Metric Ton, Kilogram, Gram, Milligram, Pound, Ounce
+3. Length
 
-5. Time
-* Nepali Units : Muhrat, Ghadi, Pala, Vipala, Nimesh
-* International Units : Century, Decade, Year, Month, Week, Day, Hour, Minute, Second, Millisecond
+-   Nepali Units : Yojan, Kosh, Danda/Dhanush, Gaj, Haath, Bitta, Dhanurmushti, Dhanurgrah, Angul
+-   International Units : Kilometer, Meter, Centimeter, Mile, Yard, Foot, Inch
+
+4. Volume
+
+-   Nepali Units : Muri, Pathi, Kuruwa, Mana, Muthi
+-   International Units : Cubic Meter, Liter, Milliliter, Cubic Foot, Cubic Inch
+
+5. Weight
+
+-   Nepali Units : Dharni, Sher, Pau, Pau(Ktm), Chatak, Tola, Lal
+-   International Units: Metric Ton, Kilogram, Gram, Milligram, Pound, Ounce
+
+6. Time
+
+-   Nepali Units : Muhrat, Ghadi, Pala, Vipala, Nimesh
+-   International Units : Century, Decade, Year, Month, Week, Day, Hour, Minute, Second, Millisecond
 
 ## License
+
 Copyright © 2020 Prajwal Adhikari
 
 Licensed under the Apache License, Version 2.0 (the "License");
