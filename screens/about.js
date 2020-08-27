@@ -7,7 +7,7 @@ export default function About() {
 		<View style={globalStyles.container}>
 			<StatusBar backgroundColor="#ddd" />
 			<Text style={styles.titleText}>Nepali Unit Converter</Text>
-			<Text style={styles.versionText}> Version: 1.0.2</Text>
+			<Text style={styles.versionText}> Version: 1.1.0</Text>
 			<Text style={styles.descriptionText}>
 				This app intends to simplify the conversion of traditional
 				Nepali Measurement Units into well known metric as well as

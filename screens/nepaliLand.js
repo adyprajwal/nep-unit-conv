@@ -65,13 +65,37 @@ export default function NepaliLand() {
 		let tempPaisa = (tempAana % 1) * 4;
 		let paisa = parseInt(tempPaisa);
 		let daam = +((tempPaisa % 1) * 4).toFixed(3);
+
+		if (daam == 4) {
+			paisa += 1;
+			daam = 0;
+			if (paisa == 4) {
+				aana += 1;
+				paisa = 0;
+				if (aana == 16) {
+					ropani += 1;
+				}
+			}
+		}
+
 		let tempBigha = baseRopani * 0.0751165981;
 		let bigha = parseInt(tempBigha);
 		let tempKattha = (tempBigha % 1) * 20;
 		let kattha = parseInt(tempKattha);
 		let dhur = +((tempKattha % 1) * 20).toFixed(5);
+
+		if (dhur == 20) {
+			kattha += 1;
+			dhur = 0;
+			if (kattha == 20) {
+				bigha += 1;
+				kattha = 0;
+			}
+		}
+
 		let sqmtr = +(baseRopani * 508.737).toFixed(5);
 		let sqft = +(baseRopani * 5476).toFixed(5);
+
 		setResults({
 			ropani: ropani,
 			aana: aana,
@@ -87,14 +111,13 @@ export default function NepaliLand() {
 
 	const handleUnitChange = (value) => {
 		setUnit(value);
-		convert(unit, values);
+		convert(value, values);
 	};
 
-	const handleTextChange = (text, { name }) => {
-		setValues({ ...values, [name]: text });
-		convert(unit, values);
-		console.log("Name", name, text, unit);
-		console.log(values);
+	const handleTextChange = (text, name) => {
+		const value = { ...values, [name]: text };
+		setValues(value);
+		convert(unit, value);
 	};
 
 	return (
