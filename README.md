@@ -35,7 +35,7 @@ Units Supported within each category:
 
 1. Nepali Land Converter
 
-   Users will be able to make complex conversion by inputting value in any of the following format and getting results in those same format as well.
+   Users will be able to make complex conversion by inputting values in any of the following format and getting results in those same format as well.
 
 -   [Ropani - Aana - Paisa - Daam]
 -   [Bigha - Kattha - Dhur]
