@@ -8,6 +8,7 @@ import {
 	TouchableOpacity,
 } from "react-native";
 import Icons from "react-native-vector-icons/MaterialCommunityIcons";
+import { RFValue } from "react-native-responsive-fontsize";
 
 export default function LandResultCard({ results }) {
 	return (
@@ -68,20 +69,20 @@ const styles = StyleSheet.create({
 	resultBox: {},
 	resultItem: {
 		flexDirection: "row",
-		paddingVertical: 15,
-		paddingHorizontal: 10,
+		paddingVertical: RFValue(14),
+		paddingHorizontal: RFValue(9),
 		borderBottomWidth: 1,
 		borderBottomColor: "#eee",
 	},
 	unitValue: {
-		fontSize: 18,
+		fontSize: RFValue(17),
 		fontFamily: "sans-serif-medium",
-		marginRight: 15,
+		marginRight: RFValue(10),
 	},
 	unitLabel: {
-		marginRight: 15,
+		marginRight: RFValue(14),
 		alignSelf: "center",
-		fontSize: 13,
+		fontSize: RFValue(12),
 		color: "#757373",
 		fontFamily: "sans-serif",
 	},
