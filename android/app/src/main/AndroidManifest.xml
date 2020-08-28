@@ -1,15 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.nep_unit_conv">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
-
-    <!-- OPTIONAL PERMISSIONS, REMOVE WHATEVER YOU DO NOT NEED -->
-    
-
-    <!-- These require runtime permissions on M -->
-   
-    <!-- END OPTIONAL PERMISSIONS -->
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
 
     <application
       android:name=".MainApplication"
