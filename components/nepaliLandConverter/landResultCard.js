@@ -1,5 +1,13 @@
 import React from "react";
-import { View, Text, StyleSheet, FlatList } from "react-native";
+import Clipboard from "@react-native-community/clipboard";
+import {
+	View,
+	Text,
+	StyleSheet,
+	FlatList,
+	TouchableOpacity,
+} from "react-native";
+import Icons from "react-native-vector-icons/MaterialCommunityIcons";
 
 export default function LandResultCard({ results }) {
 	return (
@@ -17,10 +25,22 @@ export default function LandResultCard({ results }) {
 			<View style={styles.resultItem}>
 				<Text style={styles.unitValue}>{results.sqft}</Text>
 				<Text style={styles.unitLabel}>Square Feet</Text>
+				<TouchableOpacity
+					onPress={() => Clipboard.setString(results.sqft.toString())}
+				>
+					<Icons size={18} name="content-copy" color="gray" />
+				</TouchableOpacity>
 			</View>
 			<View style={styles.resultItem}>
 				<Text style={styles.unitValue}>{results.sqmtr}</Text>
 				<Text style={styles.unitLabel}>Square Meter</Text>
+				<TouchableOpacity
+					onPress={() =>
+						Clipboard.setString(results.sqmtr.toString())
+					}
+				>
+					<Icons size={18} name="content-copy" color="gray" />
+				</TouchableOpacity>
 			</View>
 			<View style={styles.resultItem}>
 				<Text style={styles.unitValue}>{results.bigha}</Text>
