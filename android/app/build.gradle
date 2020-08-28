@@ -103,7 +103,7 @@ android {
         applicationId "com.nep_unit_conv"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 3
+        versionCode 6
         versionName "1.1.0"
     }
     signingConfigs {
